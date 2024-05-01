@@ -1,3 +1,33 @@
-# qimendunjia
+# Qimen Dunjia
+
 a random liquidity sniper
+
+# Installation Steps: 
+
+- Install dependencies by running `pnpm install`.
+- Set up environment variables in `.env`. 
+
+# Deployment Steps:
+TODO: 
+- Set up github actions 
+- Set up railway setup
+
+# Connecting to Supabase: 
+
+# CLI Operations on Blast 
+- Run the deployment script deploy_and_verify.sh for contract deployment.
+- Execute the script eth_to_weth_and_usdb_bridge.sh for bridging operations.
+- Run the script eth_weth_usdb_yield_operations.sh for additional yield operations.
+- Ensure foundry is installed for Ethereum operations.
+- Update the necessary placeholders with actual values in the scripts.
+- Execute the CLI commands in cli.py for network-related information retrieval.
+- Follow the instructions in check_tx_status.sh to check transaction status.
+
+# Wallet Configuration: 
+- See blast script documentation.
+
+# Additional Operations: 
+- See blast script documentation.
+
+
 
