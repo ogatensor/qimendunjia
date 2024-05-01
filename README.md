@@ -1,7 +1,14 @@
-# Qimen Dunjia
+# Qimen Dunjia (奇門遁甲)
 
-a random liquidity sniper
+A random liquidity sniper.
 
+## Project Structure
+
+The project is split into two main packages:
+- `indexer`: Contains the blockchain indexer setup.
+- `sniper`: Contains the liquidity sniper setup.
+
+Packages are independent projects below the root level.
 # Installation Steps: 
 
 - Install dependencies by running `pnpm install`.
@@ -13,6 +20,8 @@ TODO:
 - Set up railway setup
 
 # Connecting to Supabase: 
+- Install Supabase dependencies
+- Grab Supabase URL and pass it to the appropriate Provider.
 
 # CLI Operations on Blast 
 - Run the deployment script deploy_and_verify.sh for contract deployment.
@@ -28,6 +37,3 @@ TODO:
 
 # Additional Operations: 
 - See blast script documentation.
-
-
-
