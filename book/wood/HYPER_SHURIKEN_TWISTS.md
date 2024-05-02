@@ -1,3 +1,37 @@
+# Shuriken Techniques (See Tensors and Mckay Quivers)
+
+Here is the list of Shuriken techniques organized into a table format:
+
+| Technique Name                 | Description               |
+|-------------------------------|---------------------------|
+| Butterfly Twist Shuriken       | -                         |
+| Butterfly Twist Shuriken Twist | -                         |
+| Butterfly Twist Shuriken       | -                         |
+| Hyperhook Butterfly Twist      | -                         |
+| Shuriken Cutter                | -                         |
+| Jackknife Shuriken             | -                         |
+| Corkscrew Shuriken             | -                         |
+| Lotus Shuriken                 | -                         |
+| Full Shuriken Shurikane        | -                         |
+| Corkscrew Shuriken Kyro        | -                         |
+| Double Full Shurikane Wrap     | -                         |
+| Cheat 720 Shuriken             | -                         |
+| Full Shuriken Hyperhook        | -                         |
+| Dragonfly Shuriken Cutter      | -                         |
+| Pop 360 Shuriken               | -                         |
+| Rodeo Full Shuriken            | -                         |
+| Backside 1080 Shuriken         | -                         |
+| Cheat 1080 Shuriken            | -                         |
+| Double Corkscrew Shuriken      | -                         |
+| Scissor Full Shurikane         | -                         |
+| Twist-Kick Butterfly Twist     | -                         |
+| Doubleleg Twist Wrap Full      | -                         |
+| Hyperhook Double Corkscrew     | -                         |
+| Rodeo Corkscrew Shuriken Cutter| -                         |
+| Triple Full Shuriken Hyperhook | -                         |
+
+# Exploratory Notes
+
 Okay, let's use Notation 1.1.1, Definition 1.1.1, Definition 1.1.2, and Definition 1.1.3 to analyze the Thruster Classic AMM in more detail.
 
 1. **Notation 1.1.1: Logical Implications and Bi-implications**
