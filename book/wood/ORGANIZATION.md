@@ -1,5 +1,15 @@
 # Huang Ai's Baguazhang Qimen Dunjia system.
 
+Huang Ai's Baguazhang Qimen Dunjia system refers to a martial arts system that combines elements from two different Chinese martial arts traditions:
+
+1. Baguazhang (八卦掌) - This is a Chinese internal martial art that focuses on circular movements, evasion, and close-quarters combat.
+
+2. Qimen Dunjia (奇門遁甲) - This is a Chinese divination and strategic system that is sometimes incorporated into martial arts training. It involves the use of the "eight trigrams" and other esoteric concepts.
+
+Huang Ai was a 20th century Chinese martial artist who synthesized these two disciplines into a unique fighting system. The Baguazhang Qimen Dunjia system he developed likely emphasized strategic and mystical elements alongside the physical techniques of Baguazhang.
+
+In summary, it represents the blending of an internal Chinese martial art (Baguazhang) with a traditional Chinese divination/strategy system (Qimen Dunjia) into a comprehensive fighting style developed by the martial artist Huang Ai.
+
 The Qimen Dunjia system is structured into two layers: the inner layer focuses on theoretical aspects like philosophy and strategy, while the outer layer involves practical implementations like applications and tools. The system integrates technology tools for real-world application, as seen in the book folder's repository activity documenting elements and concepts of the system.
 
 ---
