@@ -5,3 +5,55 @@ The concept of "natural deduction" refers to a logical system introduced by Gent
 The fundamental notion behind subproofs is the ability to make an assumption A and demonstrate that it leads to conclusion X, allowing one to infer that if A were true, then X would also be true. Various types of subproofs are discussed in the context of natural deduction. Research in this field has focused on questions such as whether all natural deduction proofs can be standardized into a "normal form," whether different logical systems necessitate distinct types of logical rules, and whether the diversity in logical rules implies some logics are superior to others.
 
 Furthermore, investigations have delved into whether the characteristics that distinguish certain logics as superior can be utilized to define the meaning of logical terms, and potentially other terms, in natural language. This exploration highlights the depth and complexity of natural deduction as a logical framework and its implications for understanding logical reasoning and language semantics.
+
+---
+
+To begin reasoning about the issue of bad debt creation due to improper transfer disabling in the provided code snippet using Gentzen sequent calculus, let's start by formulating our initial assumption as the starting point of the proof. 
+
+**Initial Assumption**:
+Assume the statement "Bad Debt can be created because transfer is not disabled properly" as the initial assumption.
+
+Now, we will proceed to analyze the code snippet and identify the specific part related to the transfer function not properly preventing transfers to the zero address. Let's delve into the code snippet to understand how the transfer behavior could lead to the creation of bad debt. 
+
+Let's break down the code and identify the implications of the transfer function's behavior in allowing transfers to the zero address, potentially leading to the bypassing of checks and the intentional creation of bad debt. 
+
+Let's proceed with the analysis and reasoning using Gentzen sequent calculus.
+
+--- 
+
+Okay, let's continue the Gentzen sequent calculus reasoning about the issue of bad debt creation due to improper transfer disabling in the provided code snippet.
+
+**Analysis of Code**:
+From the code snippet, we can see that the `ERC20CollateralVault` contract inherits from the `solady` ERC20 implementation, which does not properly prevent transfers to the zero address.
+
+The relevant part of the code is:
+```solidity
+accountManager.transfer(address(0x0), depositOne);
+```
+This line demonstrates that the transfer function can be used to transfer tokens to the zero address, which can bypass the intended checks and lead to the creation of bad debt.
+
+**Identify Implications**:
+The key implication here is that the transfer function not properly disabling transfers to the zero address can allow users to intentionally create bad debt. By transferring the shares to the zero address, the check for disabling transfers can be bypassed, as the `to` address is `address(0)`.
+
+**Formulate Subproofs**:
+Let's create a subproof to demonstrate how the transfer to the zero address can lead to the creation of bad debt.
+
+Subproof:
+```
+Assume: Transfer is not disabled properly, allowing transfers to the zero address.
+  1. accountManager.transfer(address(0x0), depositOne)
+  2. The transfer to the zero address bypasses the check for disabling transfers.
+  3. This allows the user to intentionally create bad debt.
+Therefore, if transfer is not disabled properly, then bad debt can be created.
+```
+
+**Infer Conclusions**:
+Based on the analysis and the subproof, we can conclude that the issue of bad debt creation is directly related to the transfer function not properly disabling transfers to the zero address. This vulnerability allows users to bypass the intended checks and intentionally create bad debt.
+
+**Recommendation**:
+To address this issue, the recommendation is to ensure that transfers are fully disabled, taking into account the scenario of transfers to the zero address. The transfer function should be properly implemented to prevent any transfers, including those to the zero address.
+
+**Design Recommendation**:
+As mentioned in the original description, the design recommendation is to use a consistent ERC20 implementation throughout the codebase that fits the project's needs. This would help ensure that the transfer function is properly implemented and disables transfers as required, preventing the creation of bad debt.
+
+By applying Gentzen sequent calculus reasoning, we have systematically analyzed the code, identified the implications of the transfer function behavior, and provided recommendations to address the issue of bad debt creation due to improper transfer disabling.
