@@ -2,7 +2,7 @@
 
 # During the Meiji Restoration
 
-In Rurouni Kenshin, Sanosuke Sagara and Yūkyūzan Anji fight in episode 47 and act 109. Sanosuke is a strong fighter who uses a large Japanese sword called a zanbato and is known for his brawling style and endurance. Anji has developed a technique called Futae no Kiwami, which allows him to strike an object quickly with milliseconds between each attack. 
+    In Rurouni Kenshin, Sanosuke Sagara and Yūkyūzan Anji fight in episode 47 and act 109. Sanosuke is a strong fighter who uses a large Japanese sword called a zanbato and is known for his brawling style and endurance. Anji has developed a technique called Futae no Kiwami, which allows him to strike an object quickly with milliseconds between each attack. 
 
 ### Abilities
 

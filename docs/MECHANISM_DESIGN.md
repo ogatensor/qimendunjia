@@ -205,3 +205,72 @@ Let's apply this definition to the Thruster Classic AMM:
    - Similarly, we can compare the power sets of the fee tier sets $P(F_A)$, $P(F_B)$, and $P(F_C)$ to understand the flexibility of the fee structures across the different pools.
 
 By incorporating Definition 1.1.4 on power sets, we can gain a more comprehensive understanding of the Thruster Classic AMM and the relationships between its various components. This knowledge can be valuable for users, developers, and researchers working with the protocol, as it provides a deeper insight into the capabilities and structure of the liquidity pools.
+
+---
+
+Okay, let's look at some examples that showcase the security aspects of the Thruster Classic AMM model.
+
+Example 4: Analyzing Liquidity Pool Resilience
+Suppose we have two liquidity pools, Pool A and Pool B, in the Thruster Classic AMM, with the following properties:
+- Pool A: $L_A = 1000 ETH, P_A(f_A, t) = 2000 ETH/USDC$
+- Pool B: $L_B = 500 ETH, P_B(f_B, t) = 1800 ETH/USDC$
+
+Using Definition 1.1.2, we can represent the liquidity depth as a component of the liquidity pool:
+$\mathcal{L}_A = (T_A, F_A, L_A, P_A(f_A, t), D_A(L_A, P_A(f_A, t)))$
+$\mathcal{L}_B = (T_B, F_B, L_B, P_B(f_B, t), D_B(L_B, P_B(f_B, t)))$
+
+Now, let's consider a scenario where there is a sudden increase in trading volume, leading to a significant decrease in the liquidity depth of the pools:
+- Pool A: $L_A$ decreases to 500 ETH
+- Pool B: $L_B$ decreases to 200 ETH
+
+Using Notation 1.1.1, we can express the relationship between liquidity depth and the deformation tensor:
+$L_2 < L_1 \Rightarrow D(L_2, P(f, t)) > D(L_1, P(f, t))$
+
+This means that the deformation tensor in both pools will increase due to the decrease in liquidity depth. As a result, the slippage experienced by users trading in these pools will also increase.
+
+Example 5: Analyzing the Impact of Malicious Actors
+Suppose there is a malicious actor who attempts to manipulate the Thruster Classic AMM by targeting the liquidity pools.
+
+Using Definition 1.1.3, we can represent the liquidity space $\mathcal{L}$ as the collection of all liquidity pools in the system:
+$\mathcal{L} = \{\mathcal{L}_A, \mathcal{L}_B, \mathcal{L}_C\}$
+
+The malicious actor may try to execute the following attacks:
+1. Liquidity Draining Attack:
+   - The attacker attempts to rapidly withdraw large amounts of liquidity from one or more pools, causing a significant decrease in the liquidity depth.
+   - Using Notation 1.1.1, we can see that this would lead to an increase in the deformation tensor, resulting in higher slippage for other users.
+
+2. Price Manipulation Attack:
+   - The attacker tries to manipulate the price function $P(f, t)$ of a pool, for example, by executing large trades that skew the price.
+   - This would directly impact the deformation tensor $D(L, P(f, t))$, potentially leading to higher slippage and unfavorable trading conditions for other users.
+
+To mitigate these attacks, the Thruster Classic AMM may employ various security measures, such as:
+- Liquidity provider incentives to encourage stable liquidity provision
+- Price impact limits to prevent significant price deviations
+- Monitoring and detection mechanisms to identify suspicious trading activities
+
+By understanding the relationships between the components of the liquidity pools, as defined in Definitions 1.1.1 to 1.1.4, developers and researchers can design more robust and secure decentralized exchange protocols like the Thruster Classic AMM.
+
+Example 6: Analyzing the Impact of Oracle Manipulation
+Suppose the Thruster Classic AMM relies on external price oracles to determine the price function $P(f, t)$ for its liquidity pools.
+
+Using Definition 1.1.2, we can represent the price function as a component of the liquidity pool:
+$\mathcal{L}_i = (T_i, F_i, L_i, P_i(f, t), D_i(L_i, P_i(f, t)))$
+
+If a malicious actor manages to manipulate the price oracles, it would directly impact the price function $P_i(f, t)$ and, consequently, the deformation tensor $D_i(L_i, P_i(f, t))$.
+
+This could lead to the following security issues:
+1. Inaccurate Pricing:
+   - The manipulated price function would result in inaccurate pricing of the token pairs in the liquidity pool.
+   - This could lead to unfair trading conditions and potential losses for users.
+
+2. Increased Slippage:
+   - The manipulation of the price function would cause the deformation tensor to change, leading to higher slippage for users trading in the affected liquidity pools.
+
+To mitigate the impact of oracle manipulation, the Thruster Classic AMM may implement the following security measures:
+- Use multiple independent price oracles and implement cross-validation mechanisms
+- Implement on-chain price verification and dispute resolution processes
+- Leverage decentralized oracle networks to reduce the risk of centralized manipulation
+
+By understanding the relationships between the price function and the deformation tensor, as defined in Definitions 1.1.1 and 1.1.2, developers can design more robust and secure decentralized exchange protocols that are resilient to oracle manipulation attacks.
+
+These examples demonstrate how the formal definitions and notations introduced earlier can be applied to analyze the security aspects of the Thruster Classic AMM model, helping identify potential vulnerabilities and design appropriate mitigation strategies.
