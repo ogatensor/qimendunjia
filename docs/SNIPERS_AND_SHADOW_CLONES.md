@@ -26,6 +26,26 @@ The Qimen Dunjia Sniper Bot component is integrated into the Ponder project's co
 
 4. **Machine Learning Models**: The component utilizes the machine learning models developed for the Ponder project to enhance the accuracy of the sniping opportunity detection.
 
+5. **Decoy Botnets**
+    - cloud native, self hosted, zero-config deploys
+    - living off the land / hp and mp analysis / operations
+
+6. **Adaptive Botnet Architectures**
+    - Data Sources 
+    - Blockchain Analytics and Aggregators
+    - Greynoise Integration 
+    - UNIBOT Integration (Telegrams and Graphemes)
+
+7. **Discreet Log Contracts** / Smart Contract Architecture
+
+8. **Web2 Architecture** 
+
+9. **Sequencer Particulars and The Great Game** 
+
+10. RPC Providers and Rate Limits
+
+11. Camoflauge Methodology 
+
 ## Configuration
 
 The Qimen Dunjia Sniper Bot component can be configured through the following parameters:
