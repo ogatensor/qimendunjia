@@ -1,0 +1,3 @@
+[submodule "indexer"]
+	path = apps/ponder
+	url = https://github.com/ogatensor/ponder.git
