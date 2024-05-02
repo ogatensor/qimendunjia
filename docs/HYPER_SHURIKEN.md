@@ -1,3 +1,36 @@
+Okay, let's use Notation 1.1.1, Definition 1.1.1, Definition 1.1.2, and Definition 1.1.3 to analyze the Thruster Classic AMM in more detail.
+
+1. **Notation 1.1.1: Logical Implications and Bi-implications**
+   - We can use this notation to express the relationships between the various properties of the liquidity pools, such as the fee tier, liquidity depth, and price function.
+   - For example, we can say that if the fee tier f in Pool A increases, then the Deformation Tensor D(L(A), P(f, t)) for Pool A also increases.
+   - Formally: $f_2 > f_1 \Rightarrow D(L(A), P(f_2, t)) > D(L(A), P(f_1, t))$
+
+2. **Definition 1.1.1: Liquidity Pool**
+   - Each liquidity pool $\mathcal{L}_i$ in the Thruster Classic AMM has the following components:
+     - Token pair set $T_i$
+     - Fee tier set $F_i$
+     - Liquidity depth $L_i$
+     - Price function $P_i(f, t)$
+     - Deformation Tensor $D_i(L_i, P_i(f, t))$
+
+3. **Definition 1.1.2: Set Operations**
+   - We can use set operations to analyze the relationships between the various liquidity pools in the Thruster Classic AMM.
+   - For example, we can find the set of all unique token pairs supported by the Thruster Classic AMM using the union operation:
+     - $T = T_A \cup T_B \cup T_C$
+   - We can also find the set of fee tiers that are common to all three pools using the intersection operation:
+     - $F = F_A \cap F_B \cap F_C$
+
+4. **Definition 1.1.3: Liquidity Space**
+   - The liquidity space $\mathcal{L}$ is the collection of all liquidity pools in the Thruster Classic AMM.
+   - Each liquidity pool $\mathcal{L}_i$ in the liquidity space $\mathcal{L}$ has the properties defined in Definition 1.1.1.
+   - We can use this definition to analyze the overall structure and capabilities of the Thruster Classic AMM, as well as the relationships between the individual liquidity pools.
+
+By combining these concepts, we can gain a deeper understanding of the Thruster Classic AMM and its properties. For example, we can use Notation 1.1.1 to analyze the impact of fee tier changes on the deformation tensor, and we can use Definition 1.1.2 to compare the common and unique fee tiers across different liquidity pools.
+
+Additionally, Definition 1.1.3 allows us to view the Thruster Classic AMM as a cohesive liquidity space, which can be useful for understanding the overall capabilities and behavior of the system. This knowledge can be valuable for users, developers, and researchers working with the Thruster Classic AMM, as it provides a framework for analyzing and reasoning about the various aspects of the protocol.
+
+--- 
+
 Okay, let's walk through an example mathematically using the transaction data you provided.
 
 The key pieces of information we have are:
