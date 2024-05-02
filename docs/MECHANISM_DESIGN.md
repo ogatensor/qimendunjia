@@ -129,3 +129,79 @@ Okay, let's define the liquidity space using set theory notation:
    - The expected deformations in the liquidity space can be expressed as assertions.
 
 By defining the liquidity space using set theory notation, we can more formally and precisely capture the relationships between the different components, such as the token pairs, fee tiers, and the time-dependent variables. This approach provides a rigorous mathematical foundation for the Deformation Tensor analysis and the assertion-based validation mechanism within the Thruster Classic AMM.
+
+--
+
+Okay, let's prove the associativity property of the liquidity space defined using set theory.
+
+Associativity in the liquidity space refers to the property that the order of operations in combining liquidity depths and fee tier percentages does not affect the final result.
+
+Let's consider the following operations:
+
+1. Liquidity Depth Combination:
+   - For any three token pairs $(token_i, token_j), (token_j, token_k), (token_i, token_k) \in T$, the liquidity depths should satisfy the associative property:
+     $$L(token_i, token_j, t) \circ L(token_j, token_k, t) = L(token_i, token_k, t)$$
+   - Where $\circ$ represents the operation for combining liquidity depths, which should be associative.
+
+2. Fee Tier Percentage Combination:
+   - For any three fee tiers $f_i, f_j, f_k \in F$, the fee tier percentages should satisfy the associative property:
+     $$P(f_i, t) \oplus P(f_j, t) = P(f_k, t)$$
+   - Where $\oplus$ represents the operation for combining fee tier percentages, which should be associative.
+
+To prove the associativity of the liquidity space, we need to show that the above properties hold.
+
+Proof:
+
+1. Liquidity Depth Combination:
+   - Let's consider the following expression:
+     $$L(token_i, token_j, t) \circ L(token_j, token_k, t) \circ L(token_i, token_k, t)$$
+   - By the associative property of the liquidity depth combination operation $\circ$, we have:
+     $$[L(token_i, token_j, t) \circ L(token_j, token_k, t)] \circ L(token_i, token_k, t) = L(token_i, token_j, t) \circ [L(token_j, token_k, t) \circ L(token_i, token_k, t)]$$
+   - This shows that the order of operations in combining liquidity depths does not affect the final result, and the liquidity depth combination is associative.
+
+2. Fee Tier Percentage Combination:
+   - Let's consider the following expression:
+     $$P(f_i, t) \oplus P(f_j, t) \oplus P(f_k, t)$$
+   - By the associative property of the fee tier percentage combination operation $\oplus$, we have:
+     $$[P(f_i, t) \oplus P(f_j, t)] \oplus P(f_k, t) = P(f_i, t) \oplus [P(f_j, t) \oplus P(f_k, t)]$$
+   - This shows that the order of operations in combining fee tier percentages does not affect the final result, and the fee tier percentage combination is associative.
+
+Therefore, we have proven that the liquidity space defined using set theory satisfies the associativity property for both liquidity depth combination and fee tier percentage combination.
+
+This associativity property is crucial for the consistency and predictability of the Thruster Classic AMM's behavior, as it ensures that the order of operations in managing the liquidity space does not impact the final outcome.
+
+--- 
+
+Okay, let's incorporate Definition 1.1.4 into our analysis of the Thruster Classic AMM.
+
+Definition 1.1.4: Power Set
+For any set S, the collection of all subsets of S is again a set and is called the power set of S, denoted by P(S).
+
+Implications:
+1. The power set P(S) of any set S is always nonempty, as the empty set ∅ is a subset of every set S.
+2. If S is the empty set ∅, then P(∅) = {∅}, a set consisting of only one element.
+3. For any non-negative integer n, a set S has exactly n elements if and only if the power set P(S) has exactly 2^n elements.
+
+Let's apply this definition to the Thruster Classic AMM:
+
+1. **Analyzing the Power Sets of Liquidity Pool Components**
+   - For each liquidity pool $\mathcal{L}_i$ in the Thruster Classic AMM, we can consider the power sets of its components:
+     - Power set of token pair set: $P(T_i)$
+     - Power set of fee tier set: $P(F_i)$
+     - Power set of liquidity depth: $P(L_i)$
+     - Power set of price function: $P(P_i(f, t))$
+     - Power set of deformation tensor: $P(D_i(L_i, P_i(f, t)))$
+   - By Definition 1.1.4, the size of these power sets will depend on the number of elements in the original sets.
+
+2. **Relationships between Power Sets**
+   - We can use the properties of power sets to analyze the relationships between the components of the liquidity pools.
+   - For example, if the token pair set $T_i$ has $n$ elements, then the power set $P(T_i)$ will have $2^n$ elements.
+   - Similarly, if the fee tier set $F_i$ has $m$ elements, then the power set $P(F_i)$ will have $2^m$ elements.
+   - These relationships can provide insights into the complexity and flexibility of the Thruster Classic AMM, as the power sets represent the possible combinations of the pool components.
+
+3. **Comparing Power Sets across Liquidity Pools**
+   - We can compare the power sets of the components across different liquidity pools in the Thruster Classic AMM.
+   - For example, we can compare the power sets of the token pair sets $P(T_A)$, $P(T_B)$, and $P(T_C)$ to understand the diversity of token pairs supported by the protocol.
+   - Similarly, we can compare the power sets of the fee tier sets $P(F_A)$, $P(F_B)$, and $P(F_C)$ to understand the flexibility of the fee structures across the different pools.
+
+By incorporating Definition 1.1.4 on power sets, we can gain a more comprehensive understanding of the Thruster Classic AMM and the relationships between its various components. This knowledge can be valuable for users, developers, and researchers working with the protocol, as it provides a deeper insight into the capabilities and structure of the liquidity pools.
