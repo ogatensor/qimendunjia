@@ -161,3 +161,75 @@ The key steps are:
 By using the sequent calculus representation, we can formally capture the logical structure of the attack and the relationships between the different components of the Thruster Classic AMM system.
 
 This formal approach helps to clearly articulate the vulnerability and the attacker's exploitation, which can be valuable for understanding, analyzing, and potentially mitigating such attacks in the future.
+
+---
+
+To redefine the liquidity space in the context of the vulnerability we discussed and then revisit the solution in a more formal Rudin-style approach, we need to establish the relevant concepts and relationships.
+
+Let's redefine the liquidity space and the vulnerability in a more formal manner:
+
+Definitions:
+- A: Set of accounts in the liquidity space
+- L: Set of liquidatable accounts
+- P: Set of paused accounts
+
+Relations:
+- Pause: A → P
+- Liquidatable: A → L
+
+Axioms:
+1. Admin can pause an account: ∀a ∈ A, Admin ⊢ Pause(a)
+2. No check for liquidatable account: ∀a ∈ A, Pause(a) ⊢ a ∉ L
+3. Liquidation only happens when unpaused: ∀a ∈ A, a ∉ P ⊢ a ∈ L
+
+Vulnerability Theorem:
+∀a ∈ A, Admin ⊢ a ∉ L
+
+Proof:
+1. From Axiom 1, we have: ∀a ∈ A, Admin ⊢ Pause(a)
+2. From Axiom 2, we have: ∀a ∈ A, Pause(a) ⊢ a ∉ L
+3. By transitivity, we get: ∀a ∈ A, Admin ⊢ a ∉ L
+
+Mitigation Theorem:
+∀a ∈ A, Admin, a ∈ L ⊢ Pause(a)
+
+Proof:
+1. Introduce a health check before pausing:
+   ∀a ∈ A, Admin, a ∈ L ⊢ Pause(a)
+2. Implication rule:
+   ∀a ∈ A, Admin ⊢ a ∈ L ⇒ Pause(a)
+
+By redefining the liquidity space, restating the vulnerability and mitigation theorems, and providing a formal proof in a Rudin-style approach, we have a structured and rigorous analysis of the vulnerability and its resolution in the context of the liquidity space. This formal approach helps in clearly defining the problem, the logic behind the vulnerability, and the proposed solution.
+
+---
+
+In the notation used in Lemma 1, each symbol has a specific meaning:
+
+- ∀a, b ∈ A: This part signifies that we are considering all elements 'a' and 'b' that belong to the set A. The symbol '∀' represents the universal quantifier, meaning "for all" or "for every."
+
+- Admin ⊢ Pause(a): Here, 'Admin ⊢ Pause(a)' denotes that the administrator has the authority to pause account 'a'. The symbol '⊢' represents logical entailment or implication.
+
+- Pause(b): This indicates that account 'b' is paused.
+
+- Pause(a) ∧ Pause(b): The symbol '∧' represents logical conjunction, meaning "and." So, 'Pause(a) ∧ Pause(b)' signifies that both account 'a' and account 'b' are paused.
+
+- a = b: This denotes that account 'a' is equal to account 'b'. The symbol '=' represents equality between the two accounts.
+
+Therefore, in Lemma 1, the statement '∀a, b ∈ A, Admin ⊢ Pause(a) ∧ Pause(b) ⊢ a = b' asserts that for all accounts 'a' and 'b' in the set A, if the administrator has the ability to pause account 'a' and account 'b' is also paused, then account 'a' is equal to account 'b'. This lemma establishes the transitive property of pausing accounts under the given conditions and implications.
+
+If you have any further questions or need clarification on any specific part of the notation or the lemma, feel free to ask!
+
+---
+Certainly! Here is the updated table that includes the proof step number in both Hanzi (Chinese characters) and Pinyin, along with the Wu Xing elements and the proof steps in Hanzi and Pinyin:
+
+| Proof Step Number | Wu Xing Element | Proof Step                                         |
+|-------------------|-----------------|---------------------------------------------------|
+| 一 (yī)           | 木 (mù)         | 假设 (jiǎ) Admin ⊢ Pause(a) (Starting point)      |
+| 二 (èr)           | 火 (huǒ)        | 假设 (jiǎ) Pause(a) (Transformation and energy)   |
+| 三 (sān)          | 土 (tǔ)         | 结论: ∀a ∈ A, Admin ⊢ a ∉ L (Stability)          |
+| 四 (sì)           | 金 (jīn)        | 应用推理规则 (yìngyòng tuīlǐ guīzé) (Precision and logic) |
+| 五 (wǔ)           | 水 (shuǐ)       | 利用公理 (lìyòng gōnglǐ) (Foundational principles) |
+
+In this updated table, each row includes the proof step number in Hanzi and Pinyin, the corresponding Wu Xing element, and the proof step in both Hanzi and Pinyin. This structure provides a comprehensive and culturally enriched representation of the Gentzen-style natural deduction proof structure alongside the Wu Xing elements analogy.
+
+If you have any more requests, questions, or if there's anything else you'd like to explore, please feel free to let me know!
