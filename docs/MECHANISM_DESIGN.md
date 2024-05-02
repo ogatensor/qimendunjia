@@ -90,3 +90,42 @@ Okay, here's the formal and mathematical definition of the liquidity space using
    - The expected deformations in the liquidity space can be expressed as assertions.
 
 This formal and mathematical definition of the liquidity space using the $$ notation provides a more concise and visually appealing representation of the key components and their relationships. It maintains the same underlying structure and concepts as the previous version, but with the added mathematical formatting for the variables and expressions.
+
+---
+
+Okay, let's define the liquidity space using set theory notation:
+
+1. Liquidity Pool Composition:
+   - The liquidity pool is composed of a set of token pairs, where each pair has a specific liquidity depth.
+   - Let's define the set of token pairs as:
+     $$T = \{(token_i, token_j) | i, j \in \mathbb{N}, i \neq j\}$$
+   - For each token pair $(token_i, token_j) \in T$, the liquidity depth is defined as a function:
+     $$L: T \rightarrow \mathbb{R}^+$$
+     such that $L(token_i, token_j)$ represents the liquidity depth for the pair $(token_i, token_j)$.
+
+2. Liquidity Distribution:
+   - The liquidity is distributed across a set of fee tiers, with each fee tier having a specific percentage of the overall liquidity.
+   - Let's define the set of fee tiers as:
+     $$F = \{f_1, f_2, ..., f_K\}$$
+   - The percentage of liquidity in each fee tier is defined as a function:
+     $$P: F \rightarrow [0, 1]$$
+     such that $\sum_{f \in F} P(f) = 1$.
+
+3. Liquidity Dynamics:
+   - The liquidity space is dynamic, with changes in the liquidity depth and distribution over time.
+   - The time-dependent variables are defined as:
+     - $$L: T \times \mathbb{R}^+ \rightarrow \mathbb{R}^+$$
+       such that $L(token_i, token_j, t)$ represents the liquidity depth for the pair $(token_i, token_j)$ at time $t$.
+     - $$P: F \times \mathbb{R}^+ \rightarrow [0, 1]$$
+       such that $P(f, t)$ represents the percentage of liquidity in the fee tier $f$ at time $t$.
+
+4. Deformation Tensor:
+   - The Deformation Tensor, denoted as $D$, captures the changes in the liquidity space over time.
+   - The Deformation Tensor is defined as a function of the liquidity depth and distribution:
+     $$D: (T \times \mathbb{R}^+) \times (F \times \mathbb{R}^+) \rightarrow \mathbb{R}^n$$
+     such that $D(L(token_i, token_j, t), P(f, t))$ represents the Deformation Tensor at time $t$.
+
+5. Assertions:
+   - The expected deformations in the liquidity space can be expressed as assertions.
+
+By defining the liquidity space using set theory notation, we can more formally and precisely capture the relationships between the different components, such as the token pairs, fee tiers, and the time-dependent variables. This approach provides a rigorous mathematical foundation for the Deformation Tensor analysis and the assertion-based validation mechanism within the Thruster Classic AMM.
