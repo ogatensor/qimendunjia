@@ -59,3 +59,34 @@ Okay, let's formally and mathematically define the liquidity space for the Thrus
    - These assertions represent the expected state of the liquidity space, based on the Deformation Tensor analysis.
 
 By defining the liquidity space in this formal and mathematical manner, the Thruster team can leverage the Deformation Tensor to model the expected deformations and incorporate them into the validation system. This approach allows for a comprehensive and rigorous monitoring of the liquidity space, enabling the detection and resolution of any anomalies or unexpected behaviors.
+
+---
+
+Okay, here's the formal and mathematical definition of the liquidity space using the $$ notation:
+
+1. Liquidity Pool Composition:
+   - The liquidity pool is composed of multiple token pairs, where each pair has a specific liquidity depth.
+   - The set of token pairs is defined as: $$T = \{(token1, token2), (token3, token4), ..., (token_N, token_M)\}$$
+   - For each token pair $$(token_X, token_Y)$$, the liquidity depth is defined as: $$L(token_X, token_Y)$$
+
+2. Liquidity Distribution:
+   - The liquidity is distributed across different fee tiers, with each fee tier having a specific percentage of the overall liquidity.
+   - The set of fee tiers is defined as: $$F = \{f_1, f_2, ..., f_K\}$$, where $f_1$ represents the lowest fee tier and $f_K$ represents the highest fee tier.
+   - For each fee tier $f$, the percentage of liquidity is defined as: $$P(f)$$, where $$\sum_{f \in F} P(f) = 1$$
+
+3. Liquidity Dynamics:
+   - The liquidity space is dynamic, with changes in the liquidity depth and distribution over time.
+   - The time-dependent variables are defined as:
+     - $$L(token_X, token_Y, t)$$: Liquidity depth for the token pair $$(token_X, token_Y)$$ at time $t$.
+     - $$P(f, t)$$: Percentage of liquidity in the fee tier $f$ at time $t$.
+
+4. Deformation Tensor:
+   - The Deformation Tensor, denoted as $$D$$, captures the changes in the liquidity space over time.
+   - The Deformation Tensor is defined as a function of the liquidity depth and distribution:
+     $$D = D(L(token_X, token_Y, t), P(f, t))$$
+   - The Deformation Tensor provides a quantitative measure of the expected deformations in the liquidity space.
+
+5. Assertions:
+   - The expected deformations in the liquidity space can be expressed as assertions.
+
+This formal and mathematical definition of the liquidity space using the $$ notation provides a more concise and visually appealing representation of the key components and their relationships. It maintains the same underlying structure and concepts as the previous version, but with the added mathematical formatting for the variables and expressions.
