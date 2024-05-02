@@ -1,3 +1,9 @@
 [submodule "indexer"]
 	path = apps/ponder
 	url = https://github.com/ogatensor/ponder.git
+[submodule "apps/sniper/rock"]
+	path = apps/sniper/rock
+	url = https://github.com/ogatensor/matsu
+[submodule "apps/sniper/matsu"]
+	path = apps/sniper/matsu
+	url = https://github.com/ogatensor/matsu
