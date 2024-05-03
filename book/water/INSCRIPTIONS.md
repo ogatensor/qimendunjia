@@ -1,3 +1,17 @@
+To create a table of contents for the file `INSCRIPTIONS.md`, you can use the headings present in the file. Here is a sample table of contents based on the headings in the provided content:
+
+1. Introduction to Qi Men Dun Jia
+2. Importance of Tactical Decisions
+3. Problems in Learning Qi Men Dun Jia
+4. Art and Science of Qi Men Dun Jia
+5. Expansion of Symbolic Meanings
+6. Conclusion and Further Learning Resources
+
+You can adjust the table of contents based on the actual headings and sections present in the file.
+
+---
+
+
 Qi Men Dun Jia is not magic, as I always say, but rather a study of space and time and how things manifest in our world over time. It always goes back to the saying 「在天成象， 在地成形， 在人成事」。
 
 Would 值符 still represent the plaintiff and 天乙 the defendant? Would the roles be reversed?

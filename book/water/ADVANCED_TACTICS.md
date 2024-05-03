@@ -1,4 +1,19 @@
+# Table of Contents
 
+1. Introduction
+2. Timing Variability in Ethereum
+3. Layer 2 Solutions and Timing
+4. Risks of Using `block.number` for Timing
+5. EIP-4626 Inflation/Sandwich Attack
+6. Recommendations for Precise Timing
+7. Conclusion
+
+The content in `ADVANCED_TACTICS.md` discusses the challenges and risks associated with using `block.number` for precise timing in Ethereum. It highlights the variability in block production times on the Ethereum mainnet and the differences in timing mechanisms between Layer 1 and Layer 2 solutions. The document emphasizes the importance of understanding these timing nuances to avoid inaccuracies in time-sensitive operations.
+
+Furthermore, it delves into the EIP-4626 Inflation/Sandwich Attack, which exploits vulnerabilities in pricing functions to manipulate exchange rates and cause inflation in token pairs. The attack involves depositing to a vault, transferring ERC20 tokens, and front-running victim deposits to manipulate prices. The document suggests using a set of off-chain oracles and taking the mean of prices to mitigate risks associated with oracle manipulation attacks.
+
+Overall, the document provides valuable insights into the intricacies of timing in Ethereum, the risks of relying on `block.number` for timing, and the potential vulnerabilities associated with pricing functions that can be exploited in attacks like the EIP-4626 Inflation/Sandwich Attack. It underscores the importance of understanding these concepts for developers and practitioners in the Ethereum ecosystem to enhance security and precision in their operations.
+--- 
 
 noLE — 03/07/2024 10:19 AM
 
@@ -39,3 +54,58 @@ Medium
 EIP-4626 Inflation/ Sandwich Attack Deep Dive And How to Solve It
 TL;DR EIP-4626 tokenised vaults are susceptible to inflation attacks if the exchange rate of assets deposited and ERC20 shares minted isn’t…
 lol this info cost us 100k
+
+---
+
+Here is the information organized in a table format:
+
+| Concept | Definition |
+|---------|------------|
+| Liquidity Space $\mathcal{L}$ | A vector space representing the digital space where token pairs reside, allowing for trading. |
+| Exploitable Subspace $\mathcal{L}^e$ | A subset of $\mathcal{L}$ where token pairs are exploitable, enabling profitable trading opportunities. |
+| Detection Function $\delta$ | A function mapping token pairs to a binary group $\{0, 1\}$, indicating exploitability status. |
+| Activation Function $\sigma$ | A function transforming non-exploitable token pairs into exploitable ones within $\mathcal{L}^e$. |
+| Group Structure of $\mathcal{L}$ | $\mathcal{L}$ forms an Abelian group under vector addition, with token pairs as elements. |
+| Group Action of $\delta$ | $\delta$ acts as a group homomorphism mapping $\mathcal{L}$ to the Boolean group $\{0, 1\}$. |
+| Group Action of $\sigma$ | $\sigma$ acts as a group action of the deformation tensor on $\mathcal{L}$, transforming token pairs. |
+
+| Lemma | Description |
+|-------|-------------|
+| Lemma 4 (Boundary Condition: Subspaces) | Defines three disjoint subspaces in the liquidity space: positive, negative, and boundary subspaces. |
+| Corollary 1 (States Outside the Boundary Conditions) | States conditions for token pairs outside the liquidity space, involving zero vectors and the negative subspace. |
+| Lemma 5 (Pricing Function) | Introduces a pricing function consistent with the LP AMM function, connecting token pair prices to subspaces. |
+| Lemma 3 (Token Pair Conditions) | States conditions for token pairs in the liquidity space, ensuring non-zero values for $\vec{x}$ and $\vec{y}$. |
+| Lemma 6 (Exploitable Subspace Definition) | Defines the exploitable subspace as a union of the negative and boundary subspaces. |
+
+| Theorem | Description |
+|---------|-------------|
+| Theorem 1 (Pricing Function and Subspaces) | Establishes relationships between pricing function consistency, token pair subspaces, and corresponding price vector properties. |
+| Theorem 2 (Existence of Exploitable Subspace) | Proves the existence of a subspace where exploitation is possible based on pricing function consistency. |
+| Theorem 3 (Correctness of the Detection Function) | Affirms that the detection function correctly identifies the exploitable subspace based on token prices. |
+
+This table provides a concise and organized overview of the key definitions, lemmas, and theorems presented, making it easier to reference and understand the underlying concepts and relationships.
+
+Based on the information provided in the search results, let's explain the EIP-4626 inflation/sandwich attack using a direct proof approach:
+
+Proof:
+
+1. **Exploitable Subspace $\mathcal{L}^e$**: According to Lemma 6, the exploitable subspace $\mathcal{L}^e$ is defined as the union of the negative and boundary subspaces within the liquidity space $\mathcal{L}$. This means that token pairs within $\mathcal{L}^e$ are vulnerable to exploitation.
+
+2. **Pricing Function and Subspaces**: Theorem 1 establishes the relationship between the pricing function, token pair subspaces, and corresponding price vector properties. Specifically, it states that if the pricing function is consistent with the LP AMM function, then the price vector will have properties corresponding to the positive, negative, and boundary subspaces.
+
+3. **Existence of Exploitable Subspace**: Theorem 2 proves the existence of an exploitable subspace $\mathcal{L}^e$ based on the pricing function consistency. This means that there is a non-empty subset of the liquidity space where token pairs can be exploited.
+
+4. **Sandwich Attack Mechanism**: The search results[^1](https://tienshaoku.medium.com/eip-4626-inflation-sandwich-attack-deep-dive-and-how-to-solve-it-9e3e320cc3f1), [^2](https://medium.com/@0x.offchain/eip4626-inflation-attack-briefly-explained-250f8a8e424e), and [^3](https://ethereum-magicians.org/t/address-eip-4626-inflation-attacks-with-virtual-shares-and-assets/12677) explain the mechanism of the EIP-4626 inflation/sandwich attack:
+   - The attacker deposits to the vault to mint shares.
+   - The attacker also transfers ERC20 tokens directly to the vault.
+   - The victim (depositor) then deposits, and the attacker can front-run the victim's deposit, manipulating the exchange rate and causing inflation.
+
+5. **Correctness of Detection Function**: Theorem 3 affirms that the detection function $\delta$ correctly identifies the exploitable subspace $\mathcal{L}^e$. This means that the detection mechanism can reliably identify the token pairs that are vulnerable to the inflation/sandwich attack.
+
+In conclusion, the direct proof shows that the existence of an exploitable subspace $\mathcal{L}^e$ within the liquidity space $\mathcal{L}$, as defined by Lemma 6 and proven by Theorem 2, enables the EIP-4626 inflation/sandwich attack mechanism. The attacker can exploit the inconsistencies in the pricing function and front-run the victim's deposit to manipulate the exchange rate and cause inflation, as described in the search results. The correctness of the detection function, as stated in Theorem 3, can help identify the vulnerable token pairs within the exploitable subspace.
+
+[^1](https://tienshaoku.medium.com/eip-4626-inflation-sandwich-attack-deep-dive-and-how-to-solve-it-9e3e320cc3f1)
+[^2](https://medium.com/@0x.offchain/eip4626-inflation-attack-briefly-explained-250f8a8e424e)
+[^3](https://ethereum-magicians.org/t/address-eip-4626-inflation-attacks-with-virtual-shares-and-assets/12677)
+
+The provided information discusses the unreliability of using block.number for precise timing in Ethereum due to block time variability and differences between Layer 1 and Layer 2 solutions. It also warns against vulnerabilities like flash loan attacks when relying solely on block time or oracles for critical operations. Additionally, it delves into the EIP-4626 inflation/sandwich attack, which exploits inconsistencies in pricing functions to manipulate exchange rates and cause inflation in token pairs.

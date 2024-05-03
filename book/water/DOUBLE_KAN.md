@@ -1,3 +1,41 @@
+To create a table of contents for the file `DOUBLE_KAN.md`, you can extract the headings and subheadings from the content. Here is a simplified version:
+
+1. **Introduction**
+2. **I CHING**
+   - The Yi King
+3. **Hexagram 29: Kǎn (Abyss)**
+   - Action: Relinquish
+   - Hu Gua (hidden influence) 27: Nourishing Vision: Nurture
+   - Zong Gua (underlying cause) 30: Clarity: Persist
+4. **Interpretation of Kǎn**
+   - Reading at a Glance
+   - Symbolism and Meaning
+   - Hero's Journey
+   - Surrendering Control
+   - Confronting Fear
+   - Testing Time
+   - Trusting the Process
+5. **Symbolism of Water**
+   - Flowing Water
+   - Abysmal Water
+   - Transformation through Water
+6. **Unchanging**
+   - Danger Repeated
+7. **Hexagram 29 Lines Interpretation**
+   - Line 1
+   - Line 2
+   - Line 3
+   - Line 4
+   - Line 5
+   - Line 6
+8. **Conclusion**
+9. **References**
+   - Way of Tao
+   - Essential I Ching Book by Kari Hohne
+   - Nothing Bad Happens in Life by Kari Hohne
+
+This table of contents provides a structured overview of the content in `DOUBLE_KAN.md`.
+---
 
 Cafeausoul logoGo to home page
 I CHING     The Yi King

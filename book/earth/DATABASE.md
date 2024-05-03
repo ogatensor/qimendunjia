@@ -62,3 +62,46 @@ const { data, error } = await supabaseClient.listFiles(folder, options);
 | `listFiles(folder: string, options: any)` | Lists files in the 'avatars' storage bucket. | `folder: string`, `options: any` | `Promise<{ data: any, error: any }>` |
 
 This documentation provides an overview of the `SupabaseClient` class, including installation instructions and usage examples. The method table lists all the available methods, their parameters, and return types, making it easy to understand and use the class.
+
+```python 
+def fetch_data():
+    # Fetches data from the 'countries' table.
+    # Returns: Promise<{ data: any, error: any }>
+    pass
+
+def insert_data(data):
+    # Inserts data into the 'countries' table.
+    # Parameters: data: any
+    # Returns: Promise<{ error: any }>
+    pass
+
+def update_data(id, new_data):
+    # Updates data in the 'countries' table.
+    # Parameters: id: number, new_data: any
+    # Returns: Promise<{ error: any }>
+    pass
+
+def delete_data(id):
+    # Deletes data from the 'countries' table.
+    # Parameters: id: number
+    # Returns: Promise<{ error: any }>
+    pass
+
+def upload_file(path, file):
+    # Uploads a file to the 'avatars' storage bucket.
+    # Parameters: path: string, file: any
+    # Returns: Promise<{ data: any, error: any }>
+    pass
+
+def download_file(path):
+    # Downloads a file from the 'avatars' storage bucket.
+    # Parameters: path: string
+    # Returns: Promise<{ data: any, error: any }>
+    pass
+
+def list_files(folder, options):
+    # Lists files in the 'avatars' storage bucket.
+    # Parameters: folder: string, options: any
+    # Returns: Promise<{ data: any, error: any }>
+    pass
+```

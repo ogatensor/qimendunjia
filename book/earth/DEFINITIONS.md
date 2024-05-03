@@ -170,3 +170,64 @@ By applying the Deformation Tensor to the Control Vector C, hackers and digital 
 The Kronecker delta function, a fundamental mathematical tool, is employed within the Deformation Tensor to dynamically set and update the configurations and arrangements of the Digital Space D. This function allows for the precise and targeted manipulation of specific elements within the Control Vector C, enabling hackers and digital architects to fine-tune the Digital Space according to their evolving requirements and the changing landscape of the metaverse, augmented reality, virtual reality, and mixed reality.
 
 The Deformation Tensor, in conjunction with the Control Vector C, empowers hackers and digital architects to create highly adaptable and resilient Digital Spaces that can respond to emerging challenges, accommodate new technologies, and provide secure and immersive experiences for users across the virtual and physical realms.
+
+--- 
+
+### Definitions
+
+1. **Liquidity Space $\mathcal{L}$**:
+   - A vector space representing the digital space where token pairs reside, allowing for trading.
+  
+2. **Exploitable Subspace $\mathcal{L}^e$**:
+   - A subset of $\mathcal{L$} where token pairs are exploitable, enabling profitable trading opportunities.
+
+3. **Detection Function $\delta$**:
+   - A function mapping token pairs to a binary group $\{0, 1\}$, indicating exploitability status.
+
+4. **Activation Function $\sigma$**:
+   - A function transforming non-exploitable token pairs into exploitable ones within $\mathcal{L}^e$.
+
+5. **Group Structure of $\mathcal{L}$**:
+   - $\mathcal{L}$ forms an Abelian group under vector addition, with token pairs as elements.
+
+6. **Group Action of $\delta$**:
+   - $\delta$ acts as a group homomorphism mapping $\mathcal{L}$ to the Boolean group $\{0, 1\}$.
+
+7. **Group Action of $\sigma$**:
+   - $\sigma$ acts as a group action of the deformation tensor on $\mathcal{L$, transforming token pairs.
+
+These definitions aim to clarify the roles and relationships of the liquidity space, exploitable subspaces, detection and activation functions, and their group theoretic properties within the digital space context.
+
+### Lemmas
+
+1. **Lemma 4 (Boundary Condition: Subspaces)**
+   - Defines three disjoint subspaces in the liquidity space: positive, negative, and boundary subspaces.
+  
+2. **Corollary 1 (States Outside the Boundary Conditions)**
+   - States conditions for token pairs outside the liquidity space, involving zero vectors and the negative subspace.
+
+3. **Lemma 5 (Pricing Function)**
+   - Introduces a pricing function consistent with the LP AMM function, connecting token pair prices to subspaces.
+
+### Additional Lemmas (from previous responses)
+
+4. **Lemma 3 (Token Pair Conditions)**
+   - States conditions for token pairs in the liquidity space, ensuring non-zero values for $\vec{x}$ and $\vec{y}$.
+
+5. **Lemma 6 (Exploitable Subspace Definition)**
+   - Defines the exploitable subspace as a union of the negative and boundary subspaces.
+
+These lemmas establish foundational concepts related to boundary conditions, pricing functions, and exploitable subspaces within the liquidity space, providing essential insights into the behavior and security implications of the digital space.
+
+### Theorems
+
+1. **Theorem 1 (Pricing Function and Subspaces)**
+   - Establishes relationships between pricing function consistency, token pair subspaces, and corresponding price vector properties.
+
+2. **Theorem 2 (Existence of Exploitable Subspace)**
+   - Proves the existence of a subspace where exploitation is possible based on pricing function consistency.
+
+3. **Theorem 3 (Correctness of the Detection Function)**
+   - Affirms that the detection function correctly identifies the exploitable subspace based on token prices.
+
+These theorems highlight significant relationships and properties within the digital space, particularly concerning pricing functions, exploitable subspaces, and the correctness of detection mechanisms.

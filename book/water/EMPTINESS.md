@@ -1,3 +1,20 @@
+To create a table of contents for the file `EMPTINESS.md`, you can extract the headings and subheadings from the content and list them in order. Here is a potential table of contents based on the provided content:
+
+1. Introduction
+2. Flash Loan Attacks and Oracle Manipulation
+3. EIP-4626 Inflation/Sandwich Attack
+4. Wallet Security and Phishing SCs
+5. Zero-Knowledge Proof Analogy
+6. Data Interpretation in Investment Networks
+7. Relationships in Investment Spheres
+8. Representation of Investment Spheres
+9. Conclusion
+
+This table of contents reflects the main topics discussed in the file `EMPTINESS.md`.
+
+---
+
+
 Sir Himothy I — 03/16/2024 11:34 AM
 yea
 using block number or relying strictly on block time as though its constant will breed flash loan attacks
