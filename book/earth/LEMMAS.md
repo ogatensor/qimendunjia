@@ -1,3 +1,5 @@
+# Quaternions
+
 Lemma 1 (Wood-Fire-Earth Relationship): The imaginary part of the quaternion product (𝑞𝑝) is related to the cross product of the vector parts of the quaternions (𝑥, 𝑦, 𝑧) × (𝑥', 𝑦', 𝑧').
 
 Another way to view this is that the imaginary unit i introduces a 90-degree rotation. The specific multiplications and arrangements of the vector components might be a way to "rotate" the information about the original vectors to create a new vector quantity related to the area element and potentially the direction normal to the plane formed by the original vectors?
