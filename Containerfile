@@ -4,7 +4,7 @@ FROM node:22-bookworm as build
 # Set the working directory to /app
 WORKDIR /app
 
-# Copy package.json and pnpm-lock.yaml to leverage Container caching
+# Copy package.json and pnpm-lock.yaml to leverage Docker caching
 COPY package*.json pnpm-lock.yaml ./
 
 # Install any needed packages specified in package.json
