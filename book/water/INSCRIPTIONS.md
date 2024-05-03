@@ -1,0 +1,1 @@
+Qi Men Dun Jia is not magic, as I always say, but rather a study of space and time and how things manifest in our world over time. It always goes back to the saying 「在天成象， 在地成形， 在人成事」。
