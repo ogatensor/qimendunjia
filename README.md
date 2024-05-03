@@ -2,7 +2,7 @@
 
 A random liquidity sniper pointed at BLAST.
 
-The repository includes various components such as Blockchain Indexing, Liquidity Sniping, and Integration with Supabase. The tech stack includes TypeScript, Shell, Python, JavaScript, and Dockerfile. Deployment and operations involve Blast CLI operations and Ethereum-related tasks. The project focuses on blockchain tasks and operations, emphasizing liquidity management and integration with external services like Supabase.
+The repository includes various components such as Blockchain Indexing, Liquidity Sniping, and Integration with Supabase. The tech stack includes TypeScript, Shell, Python, JavaScript, and Containerfile. Deployment and operations involve Blast CLI operations and Ethereum-related tasks. The project focuses on blockchain tasks and operations, emphasizing liquidity management and integration with external services like Supabase.
 
 ### Project Structure
 
