@@ -1,5 +1,8 @@
 # Accessibility Design 
 
+# France24 News Article Example
+Article: https://www.france24.com/en/europe/20240501-russia-accused-of-meddling-in-the-gps-systems-of-baltic-sea-countries
+
 The provided context delves into the logical representation and implications of a statement regarding Russia's alleged meddling in the GPS systems of Baltic Sea countries. It covers formal logic, sequent calculus, inference rules, and bi-implications derived from the initial statement. The analysis extends to the context of a news article title, exploring how additional information like subtitles can impact interpretation and reader perception. It emphasizes the importance of crafting informative and accurate titles to combat disinformation and promote critical thinking. The comparison between a hypothetical analysis and the actual article information highlights the need for responsible journalism to provide nuanced and evidence-based reporting to mitigate the spread of misleading narratives.
 
 # Topics Covered 
@@ -19,7 +22,7 @@ The provided context delves into the logical representation and implications of 
 6. Bi-Implications in News Article Titles
    - Impact of Additional Information
    - Comparison to Actual Article Information
-   
+
 # Real-time disinformation detection and early warning system applications 
 
 # Contextual Notes
