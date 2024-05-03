@@ -60,3 +60,25 @@ i went to my first conference the same age he did!!!
 MissingNo. けつばん ??????????, ?
 nobodyyy holding uuuuu
 yeeeessssshhhh
+
+--- 
+
+MissingNo. けつばん ??????????, ?
+Based on the provided code snippets, it seems that the book development in the book repository involves a deep integration of martial arts philosophy with hacking principles, emphasizing strategic thinking, adaptability, and mastery in both disciplines. The content covers a wide range of topics including liquidity dynamics, deformation tensors, exploitation subspaces, and group theoretic properties related to the liquidity space. The use of blockchain indexers for monitoring and optimization, along with the application of detection and activation functions for identifying exploitable token pairs, are key aspects of the mechanism design discussed in the book. The book also delves into the interconnectedness of strategic movements in martial arts and program tracing in programming, highlighting the precision and intention required in both domains.
+archontheory
+https://en.m.wikipedia.org/wiki/Tensor_fasciae_latae_muscle
+
+Tensor fasciae latae muscle - Wikipedia
+Tensor fasciae latae muscle Article Talk The tensor fasciae latae (or tensor fasciæ latæ or, formerly, tensor vaginae femoris ) is a muscle
+MissingNo. けつばん ??????????, ?
+"Tensor fasciae latae" translates from Latin to English as "stretcher of the side band". "Tensor" is an agent noun that comes from the past participle stem "tens-" of the Latin verb "tendere", meaning "to stretch". "Fasciae" is the Latin term for "of the band" and is in the singular genitive case. "Latae" is the respective singular, genitive, feminine form of the Latin adjective "latus" meaning "side".
+
+hmm
+the more you know
+archontheory
+https://en.m.wikipedia.org/wiki/Tensor_muscle
+
+Tensor muscle - Wikipedia
+Tensor muscle Article Talk A tensor muscle has the function of tensing (stretching or tightening) a part and may refer to: Tensor fasciae latae muscle
+MissingNo. けつばん ??????????, ?
+need to map these to acupuncture points asap
