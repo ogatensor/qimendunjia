@@ -1,3 +1,4 @@
+## Quaternions 
 /**
  * Quaternions are a number system that extends the complex numbers. They are defined as an ordered set of four real numbers (a, b, c, d) and can be represented as:
  * q = a + bi + cj + dk
@@ -22,3 +23,4 @@
 
 1. **Quaternion**: An ordered set of four real numbers (a, b, c, d) represented as q = a + bi + cj + dk.
 2. **Imaginary Units**: i, j, k are imaginary units that satisfy i^2 = j^2 = k^2 = ijk = -1.
+
