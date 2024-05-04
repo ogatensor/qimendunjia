@@ -30,3 +30,13 @@ Here are some concise definitions based on the context provided:
 4. **Taijiquan**: A form of Chinese martial art where the eight basic techniques are compared with the Eight Post-Heaven Trigrams, linking techniques and strategies with the Eight Trigrams.
 
 An "exploitation subspace" refers to a specific subset within a broader space where vulnerabilities or weaknesses can be exploited. In the context of cybersecurity or hacking, an exploitation subspace typically represents a set of conditions, configurations, or system states that can be manipulated or abused to gain unauthorized access, extract sensitive information, or compromise the security of a system or network.
+
+The term "in-nin" mentioned in the document refers to a mode of infiltration used by shinobi (ninjas) as part of their espionage tactics. It is described as the "ninjutsu of darkness," which involves sneaking into a location under cover of darkness or while being otherwise concealed to avoid detection. This method contrasts with "yo-nin," which is infiltration in plain sight, such as disguising oneself to blend into the environment openly.
+
+### Key Points about In-nin:
+
+- **Stealth and Secrecy**: In-nin focuses on achieving objectives without being seen or noticed, using the cover of darkness or hidden approaches.
+- **Detailed Reconnaissance**: Shinobi employing in-nin would gather extensive information about their target, studying the physical and social environment meticulously before making a move.
+- **Tactical Espionage**: This method was part of a broader strategy that included understanding the target's routines, defenses, and even the personal details of the people involved, to execute missions with precision and minimal confrontation.
+
+In-nin represents a strategic approach to infiltration that emphasizes stealth and detailed knowledge of the target, aligning with traditional ninja practices of gathering intelligence and executing missions covertly.
