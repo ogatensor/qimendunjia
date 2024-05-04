@@ -34,3 +34,13 @@ Consider what measures guards could take to protect food from a fire in the base
 Note that while it would be advisable to have backup food supplies in alternate locations or to store the food within fire-resistant material, for this exercise, consider how guards could control and protect the food rather than directly address the fire threat.
 
 https://learning.oreilly.com/library/view/cyberjutsu/9781098128920/c02.xhtml#h1-500549c02-0006
+
+The section titled "CASTLE THEORY THOUGHT EXERCISE" in the document is a strategic exercise designed to stimulate thinking about security and protection measures in a hypothetical scenario. In this scenario, you are the ruler of a medieval castle under threat from a ninja planning to sabotage your food supply stored in the dungeon. The exercise challenges you to think about various security measures without directly addressing the threat of fire but focusing on preventing the sabotage through human and architectural interventions.
+
+Key points to consider in the exercise include:
+
+1. **Guard Measures**: Implementing strategies for guards to protect the food, such as increased patrols or specialized training to detect and respond to intrusions.
+2. **Staffing Changes**: Adjusting how staff interact with the food supplies to minimize risk, possibly by restricting access or enhancing supervision.
+3. **Architectural Modifications**: Making changes to the dungeon's design to eliminate blind spots and secure ingress/egress points to make it harder for an intruder to access the food unnoticed.
+
+This thought exercise is a method to explore complex security solutions creatively, drawing parallels to modern security challenges in a more engaging and relatable way.
