@@ -1,6 +1,6 @@
 # Accessibility Design 
 
-# Status 
+# Overview 
 
 The document you're working on, `ACCESSIBILITY_DESIGN.md`, appears to be a guide or a chapter for a book that integrates martial arts philosophy with hacking principles, focusing on cybersecurity. The text outlines various ways to apply martial arts concepts like focus, discipline, patience, timing, and adaptability to cybersecurity strategies. It also discusses deeper theoretical aspects such as liquidity dynamics and exploitation subspaces using group theory, aiming to provide a holistic approach to problem-solving in both physical and digital realms.
 
