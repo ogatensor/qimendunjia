@@ -1,3 +1,17 @@
+## Overview 
+
+The document discusses the concept of "natural deduction," a logical system introduced by Gentzen and Jaśkowski in 1934. It emphasizes the unique feature of "subproofs" in natural deduction, which are segments of a proof where reasoning is based on temporary premises. The text explains how subproofs allow for assumptions to be made and conclusions to be drawn conditionally, enhancing the logical reasoning process.
+
+Research in this area focuses on several key questions:
+1. Whether all natural deduction proofs can be converted into a standard "normal form."
+2. Whether different logical systems require distinct logical rules.
+3. If the diversity in logical rules suggests some logics are superior to others.
+4. Whether the features that might make some logics superior can help define the meaning of logical terms in natural language.
+
+The document also includes an application of Gentzen sequent calculus to analyze a code snippet related to bad debt creation due to improper transfer disabling, demonstrating how logical reasoning can be applied to practical problems in programming.
+---
+
+
 ‘Natural deduction’ designates a type of logical system described initially in Gentzen (1934) and Jaśkowski (1934). It also designates the type of reasoning that these logical systems embody. A fundamental part of natural deduction, and what (according to most writers on the topic) sets it apart from other proof methods, is the notion of a “subproof” — parts of a proof in which the argumentation depends on temporary premises (hypotheses “assumed for the sake of argument”). In the Fitch-Jaśkowski presentation of natural deduction, subproofs are marked off in a way that makes them immediately visible in a written proof; with other presentations it takes a bit more work to pick out the formulas forming a subproof. Although formalisms differ, an underlying idea is that one is able to “make an assumption A and see that it leads to conclusion X”, and then conclude that if the A were true, then so would X be. (There are also various other types of subproof that we discuss.) Research in this area has concentrated on such topics as (a) Can all natural deduction proofs be put into some “normal form”?, (b) Do different systems of logic require radically different types of logical rules?, (c) If different logics require radically different types of logical rules, does this show that some logics are “better” than others in some sense?, and (d) Can the features that might make some logics be “better” than others be employed to characterize the meaning of logical terms (and perhaps others) in natural language?
 
 The concept of "natural deduction" refers to a logical system introduced by Gentzen (1934) and Jaśkowski (1934) and the type of reasoning that these systems embody. A key aspect of natural deduction, distinguishing it from other proof methods, is the idea of a "subproof" - segments of a proof where the argumentation relies on temporary premises or hypotheses assumed for the sake of the argument. In the Fitch-Jaśkowski presentation of natural deduction, subproofs are visually marked in a way that makes them easily identifiable in a written proof, while in other presentations, identifying subproofs may require more effort.

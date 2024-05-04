@@ -1,3 +1,26 @@
+# Overview 
+
+The text discusses the concept of "Negative Xiangyi" within the context of a decentralized exchange system, specifically the Thruster Classic AMM (Automated Market Maker) system. "Negative Xiangyi" refers to situations where different components of the system negatively impact each other, leading to potential vulnerabilities or instability.
+
+Here's a breakdown of the key points:
+
+1. **Negative Xiangyi Relationships**:
+   - **Token Pair Set and Fee Tier Set & Distribution Function**: The introduction of new token pairs can exploit or disrupt the fee structure, leading to unfair trading conditions.
+   - **Liquidity Depth Function and Deformation Tensor**: Manipulation of the Deformation Tensor can cause unexpected changes in liquidity depth, affecting price stability and causing losses.
+   - **Fee Tier Set & Distribution Function and Liquidity Space**: Poorly designed fee structures can reduce the efficiency and attractiveness of the liquidity space, impacting trading volume and user confidence.
+
+2. **Formal Proof Using Sequent Calculus**:
+   - The proof outlines how an attacker can exploit these negative relationships to destabilize the system. It uses sequent calculus to provide a formal, logical representation of potential attacks, demonstrating the steps an attacker might take to exploit vulnerabilities.
+
+3. **Sheng and Ke Relationships**:
+   - **Sheng (生)**: Represents productive relationships where changes in one set (e.g., Token Pair Set) enable changes in another (e.g., Fee Tier Set).
+   - **Ke (克)**: Represents constraining relationships where changes in one set can limit or negatively impact another. This is used to describe the negative Xiangyi.
+
+4. **Sequent Calculus Representation**:
+   - The document further formalizes the relationships using sequent calculus to detail how an attacker could leverage these relationships to cause instability.
+
+This detailed analysis helps in understanding potential vulnerabilities within the Thruster Classic AMM system and informs the development of security measures to mitigate these risks.
+---
 
 Negative Xiangyi can be defined as the situations where the components of the liquidity space can negatively impact or "restrain" each other, leading to security vulnerabilities or instability.
 

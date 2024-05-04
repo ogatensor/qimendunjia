@@ -1,3 +1,28 @@
+## Overview
+
+The document [book/metal/IMPLICATION.md](file:///Users/andrewowens/qimendunjia/book/metal/IMPLICATION.md#1%2C1-1%2C1) discusses the application of logical implications and bi-implications in the context of a liquidity space within an Automated Market Maker (AMM) system, specifically the Thruster Classic AMM. Here's a concise explanation of the key points:
+
+1. **Implications in the Liquidity Space**:
+   - Uses the implication symbol (⇒) to express relationships between different properties of the liquidity space.
+   - Example given: An increase in the liquidity depth for the ETH-USDC pair implies a change in the Deformation Tensor for that pair.
+
+2. **Bi-implications in the Liquidity Space**:
+   - Uses the bi-implication symbol (⇔) to express equivalence relationships.
+   - Example given: The liquidity depth for the ETH-USDC pair remains constant if and only if the Deformation Tensor for that pair is zero.
+
+3. **Reasoning with Implications and Bi-implications**:
+   - Demonstrates how to use these logical tools to derive new statements and conclusions about the properties of the liquidity space.
+   - Example of reasoning: If the liquidity depth increases and this increase implies a change in the Deformation Tensor, then the Deformation Tensor will change.
+
+4. **Combining Logical and Set-Theoretic Concepts**:
+   - Integrates implications and bi-implications with set-theoretic concepts (like equality and subset relations) to analyze and compare properties of different liquidity pools.
+   - Example provided: Comparing two liquidity pools, Pool A and Pool B, using these concepts to infer changes in their respective Deformation Tensors based on their liquidity depths and fee tier structures.
+
+This document essentially provides a framework for using formal logic and mathematics to analyze and predict behaviors in the liquidity space of an AMM, enhancing understanding and strategic planning in financial technology applications.
+
+---
+
+
 Great, let's incorporate the concepts of implication and bi-implication from Notation 1.1.1 into our discussion of the liquidity space.
 
 1. Implications in the Liquidity Space:

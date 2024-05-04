@@ -1,3 +1,38 @@
+## Overview 
+
+The document you are working with, `LIQUIDITY_SPACE.md`, provides a detailed mathematical and theoretical framework for defining and analyzing the liquidity space in a decentralized finance (DeFi) system, specifically within the context of an Automated Market Maker (AMM) like the Thruster Classic AMM.
+
+Here's a breakdown of the key concepts and sections in the document:
+
+1. **Liquidity Pool Composition**:
+   - Defines a set of token pairs, denoted as \( T \), where each pair consists of two different tokens.
+   - Introduces a liquidity depth function, \( L \), which assigns a positive real number to each token pair, representing the depth of liquidity available for that pair.
+
+2. **Liquidity Distribution**:
+   - Describes how liquidity is distributed across different fee tiers, represented by a set \( F \).
+   - A function \( P \) assigns a percentage of the total liquidity to each fee tier, ensuring that the sum of all percentages equals 1.
+
+3. **Liquidity Dynamics**:
+   - Discusses the dynamic nature of the liquidity space, where both the liquidity depth \( L \) and the distribution percentages \( P \) can change over time.
+
+4. **Deformation Tensor**:
+   - Introduces a Deformation Tensor \( D \), a mathematical tool used to capture and analyze changes in the liquidity space over time, based on the liquidity depth and distribution.
+
+5. **Assertions**:
+   - Mentions the use of assertions to express expected behaviors or properties of the liquidity space, such as stability or consistency over time.
+
+6. **Incorporation of the Empty Set**:
+   - Explores scenarios where the set of token pairs \( T \) or the set of fee tiers \( F \) might be empty, discussing the implications for the liquidity functions and the overall system.
+
+7. **Example Scenario**:
+   - Provides a practical example with specific token pairs and fee tiers, illustrating how the theoretical concepts can be applied to a real-world liquidity pool.
+
+8. **Application of Xiangyi (Mutual Interaction)**:
+   - Applies the concept of Xiangyi from Wuxing theory to analyze the interactions within the liquidity space, identifying both positive (mutual reinforcement) and negative (mutual restraint) interactions that could impact the system's security.
+
+This document serves as a comprehensive guide to understanding and modeling the liquidity space in a DeFi environment, using rigorous mathematical definitions and considering both static and dynamic aspects of liquidity.
+---
+
 Okay, let's define the liquidity space using the set theory concepts from Definition 1.1.1.
 
 1. Liquidity Pool Composition:

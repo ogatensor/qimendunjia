@@ -1,3 +1,31 @@
+## Overview 
+
+The Six Harmonies Matrix in the document [book/metal/SIX_HARMONIES.md](file:///Users/andrewowens/qimendunjia/book/metal/SIX_HARMONIES.md#1%2C1-1%2C1) is a 6x6 matrix used to represent relationships between six fundamental harmonies in music theory. Here's a concise explanation of its structure and purpose:
+
+1. **Matrix Structure**:
+   - The matrix is composed of 1s and 0s, where a 1 indicates a relationship or connection between two harmonies, and a 0 indicates no direct relationship.
+   - The rows and columns each represent one of the six fundamental harmonies in music.
+
+2. **Harmonies Represented**:
+   - Tonic (I)
+   - Subdominant (IV)
+   - Dominant (V)
+   - Dominant seventh (V7)
+   - Parallel minor (i)
+   - Relative minor (vi)
+
+3. **Relationships Illustrated**:
+   - For example, the entry in the (1,2) position is 1, indicating a relationship between the Tonic (I) and the Subdominant (IV).
+   - Similarly, the entry in the (3,4) position is 1, showing a relationship between the Dominant (V) and the Dominant seventh (V7).
+
+4. **Purpose and Utility**:
+   - The matrix helps visualize and understand how different harmonies relate to each other within a musical composition.
+   - It serves as a tool for both theoretical study and practical analysis in music theory.
+
+This matrix is a useful analytical tool in music theory, aiding in the exploration of harmonic relationships and their implications in musical compositions.
+
+---
+
 Six Harmonies Matrix:
 \[
 \begin{bmatrix}
