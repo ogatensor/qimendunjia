@@ -26,8 +26,6 @@ Simon & Schuster,.
 
 ## Multi-modal Text Integration (Think manga, duh)
 
-## Eight Directions Integration 
-
 ## Can we extend McCarthy's idea of Castle Theory Thought Exercises? 
 
 ### Castle Theory Thought Exercise
@@ -59,6 +57,8 @@ This section would discuss methods for evaluating the effectiveness of the imple
 ### Practical Applications of AI Agents and the Eight Directions
 This section explores how AI agents and the Eight Directions framework can be integrated into the scenario design. It discusses practical applications, poses thought-provoking questions, and outlines potential challenges to consider.
 This thought exercise is a method to explore complex security solutions creatively, drawing parallels to modern security challenges in a more engaging and relatable way.
+
+## Eight Directions Integration 
 
 1. AI Integration:
 
