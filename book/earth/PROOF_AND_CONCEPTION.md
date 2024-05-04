@@ -7,6 +7,29 @@ Reservations by one, Dinner for two.
 
 ---
 
+## Overview 
+
+The section from the document [book/earth/PROOF_AND_CONCEPTION.md](file:///Users/andrewowens/qimendunjia/book/earth/PROOF_AND_CONCEPTION.md#1%2C1-1%2C1) discusses the inherent vulnerabilities in a theoretical automated market maker (AMM) system, specifically focusing on the existence of exploitable subspaces within the liquidity space. Here’s a concise explanation of the key points:
+
+1. **Theorem on Exploitable Subspaces**:
+   - The document establishes that under certain conditions, specifically a pricing function consistent with the LP AMM function, there always exists a subspace within the liquidity space where exploitation is possible. This theorem highlights the inherent vulnerabilities of the system.
+
+2. **Detection Function Definition**:
+   - A detection function, denoted as \(\mathcal{D}\), is defined to identify whether a token pair is within the exploitable subspace \(\mathcal{L}^e\). The function outputs a binary value based on the pricing conditions of the tokens, effectively indicating potential vulnerabilities.
+
+3. **Proof of Correctness**:
+   - The correctness of the detection function \(\mathcal{D}\) is proven by showing that it aligns with the definitions of the exploitable subspace \(\mathcal{L}^e\), which includes both the negative subspace \(\mathcal{L}^-\) and the boundary subspace \(\mathcal{L}^b\). The function correctly identifies token pairs in these subspaces as exploitable.
+
+4. **Activation Function Definition**:
+   - An activation function, denoted as \(\sigma\), is defined to transform a token pair into a new pair within the exploitable subspace \(\mathcal{L}^e\), if the original pair is not already exploitable. This function is crucial for mechanisms designed to detect and prevent exploitations.
+
+5. **Example and Application**:
+   - The document walks through an example to demonstrate how the activation function \(\sigma\) operates under specific conditions, transforming non-exploitable token pairs into exploitable ones, thereby ensuring the system can address and adapt to potential vulnerabilities.
+
+This section of the document provides a theoretical framework for understanding and addressing vulnerabilities in AMM systems through mathematical functions and proofs, enhancing the security and robustness of such systems.
+
+--- 
+
 Okay, let's formalize the key insights from the proof by contradiction using a series of lemmas.
 
 Lemma 1 (Derivability of the Zero Vector):
