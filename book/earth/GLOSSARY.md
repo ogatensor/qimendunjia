@@ -40,3 +40,7 @@ The term "in-nin" mentioned in the document refers to a mode of infiltration use
 - **Tactical Espionage**: This method was part of a broader strategy that included understanding the target's routines, defenses, and even the personal details of the people involved, to execute missions with precision and minimal confrontation.
 
 In-nin represents a strategic approach to infiltration that emphasizes stealth and detailed knowledge of the target, aligning with traditional ninja practices of gathering intelligence and executing missions covertly.
+
+## Nine Palace Stepping 
+
+Nine Palace Stepping is a sophisticated stepping technique from the Chinese martial art Baguazhang. It involves coordinated movements that are adaptable and designed to exploit vulnerabilities in an opponent's positioning and defenses. The technique emphasizes precision and the ability to adapt movements based on the opponent's actions, allowing for fluid transitions and strategic positioning. This method is not only a physical practice but also incorporates elements of strategy and foresight, making it applicable in various disciplines, including martial arts and metaphorically in fields like cybersecurity.
