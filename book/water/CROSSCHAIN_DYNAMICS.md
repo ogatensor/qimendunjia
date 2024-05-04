@@ -17,3 +17,4 @@
 5. **Repeated Entries**: Some paths are repeated with the same transactions and profits, possibly indicating multiple executions or logging errors.
 
 This document is useful for analyzing the performance of the arbitrage bot, understanding market inefficiencies, or auditing trading activities.
+

@@ -109,3 +109,10 @@ In conclusion, the direct proof shows that the existence of an exploitable subsp
 [^3](https://ethereum-magicians.org/t/address-eip-4626-inflation-attacks-with-virtual-shares-and-assets/12677)
 
 The provided information discusses the unreliability of using block.number for precise timing in Ethereum due to block time variability and differences between Layer 1 and Layer 2 solutions. It also warns against vulnerabilities like flash loan attacks when relying solely on block time or oracles for critical operations. Additionally, it delves into the EIP-4626 inflation/sandwich attack, which exploits inconsistencies in pricing functions to manipulate exchange rates and cause inflation in token pairs.
+
+---
+
+More sophisticated adversaries develop tradecraft to perform passive mapping, a tactic whereby the attacker collects information about a target without interacting directly with it (without actively scanning it with Nmap, for example). Another passive mapping tactic is the interpretation of packets captured from a network interface in promiscuous mode, which configures a network interface to record and inspect all network communications; this is the opposite of non-promiscuous mode in which only communication the network addresses to itself is recorded and inspected. You would use promiscuous mode to gain an understanding of the neighboring hosts, traffic flow, services, and protocols used on the network without ever actively interacting with it.
+
+Another method for mapping a network without directly interacting with it is to collect a network admin’s emails as they leave the network, searching for network maps of the target in an external file storage-sharing environment, or looking in third-party troubleshooting help forums where the admin may post logs/errors, router configurations, network debugging/tracert/ping, or other technical details that disclose the layout and configuration of the network.
+
