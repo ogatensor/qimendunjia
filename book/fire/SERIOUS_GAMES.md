@@ -1,4 +1,32 @@
 Sometimes its right in front of us.
+# Overview 
+
+The document `SERIOUS_GAMES.md` from the `book/fire` directory discusses the use of serious games in military training and capability development. Here are the key concepts explained:
+
+### Serious Games
+- **Serious Game:** A game designed for a primary purpose other than pure entertainment. In this context, it refers to games used for military training, education, and capability development.
+
+### Models and Simulations
+- **Model:** A representation (physical, mathematical, or logical) of a system, entity, phenomenon, or process.
+- **Simulation:** A method to implement a model over time, which may or may not involve human interaction.
+
+### Game Environments in Military Context
+- **First-Person Shooter:** A game environment where players experience the game from a first-person perspective, often used for tactical and combat training.
+- **Turn-Based Strategy:** A strategic game environment where decisions are made in turns, useful for operational planning and decision-making training.
+
+### Early Synthetic Prototyping (ESP)
+- **ESP:** A framework that uses game environments to explore and develop military doctrines, organization, and materiel solutions. It allows for early feedback and iterative development, reducing costs and enhancing effectiveness.
+
+### Benefits of Using Serious Games
+- **Cost Efficiency:** Lower costs in exploring options and making design changes early in the development process.
+- **Soldier Engagement:** High engagement from soldiers who often play video games, providing valuable feedback and innovative ideas.
+- **Realistic Training:** Provides immersive and customizable scenarios for realistic training experiences.
+
+### Challenges
+- **Modeling Limitations:** Not all military capabilities can be accurately modeled in a game.
+- **Analytics and Feedback:** Understanding how to effectively use game analytics and soldier feedback for development purposes.
+
+These concepts are part of a broader discussion on how serious games can be strategically used to enhance military training, capability development, and operational planning.
 
 # References 
 
