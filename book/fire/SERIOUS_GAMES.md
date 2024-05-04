@@ -1,4 +1,7 @@
 Sometimes its right in front of us.
+
+TODO: Read Five Forces behind the Adoption of Game Technologies by Diverse Industries (Smith, 2007)
+
 # Overview 
 
 The document `SERIOUS_GAMES.md` from the `book/fire` directory discusses the use of serious games in military training and capability development. Here are the key concepts explained:
