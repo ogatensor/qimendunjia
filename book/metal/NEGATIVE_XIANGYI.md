@@ -1,6 +1,20 @@
 # Overview 
 
-The text discusses the concept of "Negative Xiangyi" within the context of a decentralized exchange system, specifically the Thruster Classic AMM (Automated Market Maker) system. "Negative Xiangyi" refers to situations where different components of the system negatively impact each other, leading to potential vulnerabilities or instability.
+[[ADVANCED_TACTICS]]
+[[book/water/ADVANCED_TACTICS]]
+
+## Blockchain Applications 
+
+[[Ethereum]]
+[[Automated Market Maker (AMM) system]]
+[[Timing Variability]]
+[[PROTOCOL]]
+[[LIQUIDITY_SPACE]]
+[[EXPLOIT_DEVELOPMENT]]
+[[EXPLOITABLE_SUBSPACE]]
+[[Exploitable Subspace]]
+
+The text discusses the concept of "Negative Xiangyi" within the context of a decentralized exchange system, specifically the Thruster Classic [[AMM (Automated Market Maker) system]]. "Negative Xiangyi" refers to situations where different components of the system negatively impact each other, leading to potential vulnerabilities or instability.
 
 Here's a breakdown of the key points:
 
@@ -19,7 +33,7 @@ Here's a breakdown of the key points:
 4. **Sequent Calculus Representation**:
    - The document further formalizes the relationships using sequent calculus to detail how an attacker could leverage these relationships to cause instability.
 
-This detailed analysis helps in understanding potential vulnerabilities within the Thruster Classic AMM system and informs the development of security measures to mitigate these risks.
+This detailed analysis helps in understanding potential vulnerabilities within the Thruster Classic [[AMM (Automated Market Maker) system]] and informs the development of security measures to mitigate these risks.
 ---
 
 Negative Xiangyi can be defined as the situations where the components of the liquidity space can negatively impact or "restrain" each other, leading to security vulnerabilities or instability.
@@ -51,7 +65,7 @@ Negative Xiangyi can be defined as the situations where the components of the li
 
    Poorly designed or exploited fee structures could undermine the efficiency and attractiveness of the liquidity space, leading to reduced trading volume, increased slippage, and a loss of user confidence in the decentralized exchange.
 
-By formally defining these negative Xiangyi relationships, we can better understand the potential attack vectors and security risks within the Thruster Classic AMM system. This knowledge can inform the development of robust security measures and risk mitigation strategies to protect the integrity and stability of the decentralized exchange.
+By formally defining these negative Xiangyi relationships, we can better understand the potential attack vectors and security risks within the Thruster Classic [[AMM (Automated Market Maker) system]]. This knowledge can inform the development of robust security measures and risk mitigation strategies to protect the integrity and stability of the decentralized exchange.
 
 Sure, we can also formalize the proof using sequent calculus. This will provide a more formal, logical representation of the attack.
 
@@ -98,9 +112,9 @@ This sequent calculus-based proof provides a more formal and rigorous representa
 
 ---
 
-Excellent idea! Let's use the concepts of Sheng and Ke to formally represent the negative Xiangyi between a subset of elements in the liquidity space.
+Excellent idea! Let's use the concepts of [[Sheng]] and [[Ke]] to formally represent the negative Xiangyi between a subset of elements in the liquidity space.
 
-In the Thruster Classic AMM system, the liquidity space (Y) can be represented as a collection of interrelated components:
+In the Thruster Classic [[AMM (Automated Market Maker) system]], the liquidity space (Y) can be represented as a collection of interrelated components:
 
 Y = {T, F, P, L, D}
 
@@ -111,49 +125,49 @@ Where:
 - L: Liquidity Depth Function
 - D: Deformation Tensor
 
-We can define the Sheng and Ke relationships between these components to capture the negative Xiangyi.
+We can define the [[Sheng]] and [[Ke]] relationships between these components to capture the negative Xiangyi.
 
-Sheng (生) Relationship:
-The Sheng relationship represents the generative, productive, or enabling relationship between elements. In the context of the Thruster Classic AMM system, we can define the following Sheng relationships:
+[[Sheng]] (生) Relationship:
+The [[Sheng]] relationship represents the generative, productive, or enabling relationship between elements. In the context of the Thruster Classic [[AMM (Automated Market Maker) system]], we can define the following [[Sheng]] relationships:
 
-- T Sheng F, P
+- T [[Sheng]] F, P
   - Changes in the Token Pair Set (T) can generate or enable changes in the Fee Tier Set (F) and Distribution Function (P).
 
-- F, P Sheng L, D
+- F, P [[Sheng]] L, D
   - Changes in the Fee Tier Set (F) and Distribution Function (P) can generate or enable changes in the Liquidity Depth Function (L) and Deformation Tensor (D).
 
-Ke (克) Relationship:
-The Ke relationship represents the constraining, limiting, or overcoming relationship between elements. In the context of the Thruster Classic AMM system, we can define the following Ke relationship:
+[[Ke]] (克) Relationship:
+The [[Ke]] relationship represents the constraining, limiting, or overcoming relationship between elements. In the context of the Thruster Classic [[AMM (Automated Market Maker) system]], we can define the following [[Ke]] relationship:
 
-- T Ke F, P
+- T [[Ke]] F, P
   - Changes in the Token Pair Set (T) can constrain or limit the Fee Tier Set (F) and Distribution Function (P).
 
-This Ke relationship between T and (F, P) captures the negative Xiangyi, where the introduction of a new token pair (t_new, t_old) into the Token Pair Set (T) can disrupt the existing Fee Tier Set (F) and Distribution Function (P).
+This [[Ke]] relationship between T and (F, P) captures the negative Xiangyi, where the introduction of a new token pair (t_new, t_old) into the Token Pair Set (T) can disrupt the existing Fee Tier Set (F) and Distribution Function (P).
 
 Formally, we can represent this as:
 
-T Ke F, P
+T [[Ke]] F, P
 
-This Ke relationship indicates that the attacker can leverage the negative Xiangyi between the Token Pair Set (T) and the Fee Tier Set (F) & Distribution Function (P) to create unfair trading conditions and undermine the stability of the liquidity space (Y).
+This [[Ke]] relationship indicates that the attacker can leverage the negative Xiangyi between the Token Pair Set (T) and the Fee Tier Set (F) & Distribution Function (P) to create unfair trading conditions and undermine the stability of the liquidity space (Y).
 
-By using the Sheng and Ke relationships, we can provide a more nuanced and structured representation of the negative Xiangyi within the Thruster Classic AMM system, which can help in understanding and mitigating such attacks.
+By using the [[Sheng]] and [[Ke]] relationships, we can provide a more nuanced and structured representation of the negative Xiangyi within the Thruster Classic [[AMM (Automated Market Maker) system]], which can help in understanding and mitigating such attacks.
 
 ---
 
-Great, let's convert the Sheng and Ke relationships into a sequent calculus representation.
+Great, let's convert the [[Sheng]] and [[Ke]] relationships into a sequent calculus representation.
 
-Sequents representing the Sheng relationships:
+Sequents representing the [[Sheng]] relationships:
 - T ⊢ F, P (Changes in T can generate or enable changes in F and P)
 - F, P ⊢ L, D (Changes in F and P can generate or enable changes in L and D)
 
-Sequent representing the Ke relationship:
+Sequent representing the [[Ke]] relationship:
 - T ⊥ F, P ⊢ (Changes in T can constrain or limit F and P)
 
 Now, we can use these sequents to formalize the proof of the attack using sequent calculus.
 
 Proof:
 
-1. Establish the Ke relationship (negative Xiangyi):
+1. Establish the [[Ke]] relationship (negative Xiangyi):
    T ⊥ F, P ⊢
 
 2. Introduce the new token pair:
@@ -176,12 +190,12 @@ Proof:
 
 The key steps are:
 
-1. Establish the negative Xiangyi (Ke relationship) between the Token Pair Set (T) and the Fee Tier Set (F) & Distribution Function (P).
+1. Establish the negative Xiangyi ([[Ke]] relationship) between the Token Pair Set (T) and the Fee Tier Set (F) & Distribution Function (P).
 2. Introduce the new token pair, which changes the Token Pair Set (T).
 3. Exploit the negative Xiangyi to trigger changes in the Fee Tier Set (F) and Distribution Function (P).
 4. Demonstrate how the changes in F and P can undermine the stability of the Liquidity Depth Function (L) and Deformation Tensor (D), destabilizing the overall liquidity space (Y).
 
-By using the sequent calculus representation, we can formally capture the logical structure of the attack and the relationships between the different components of the Thruster Classic AMM system.
+By using the sequent calculus representation, we can formally capture the logical structure of the attack and the relationships between the different components of the Thruster Classic [[AMM (Automated Market Maker) system]].
 
 This formal approach helps to clearly articulate the vulnerability and the attacker's exploitation, which can be valuable for understanding, analyzing, and potentially mitigating such attacks in the future.
 
@@ -256,3 +270,17 @@ Certainly! Here is the updated table that includes the proof step number in both
 In this updated table, each row includes the proof step number in Hanzi and Pinyin, the corresponding Wu Xing element, and the proof step in both Hanzi and Pinyin. This structure provides a comprehensive and culturally enriched representation of the Gentzen-style natural deduction proof structure alongside the Wu Xing elements analogy.
 
 If you have any more requests, questions, or if there's anything else you'd like to explore, please feel free to let me know!
+
+The connections between [[Timing Variability]].md and [[ORGANIZATION]].md can be understood through the thematic and conceptual overlaps that exist between the two documents:
+1. [[Strategic and Tactical Planning]]:
+Timing Variability.md discusses the strategic use of time and opportunities, emphasizing the importance of choosing the right moments for actions based on human behavior and predictable patterns. This aligns with the strategic elements in ORGANIZATION.md, where the Qimen Dunjia system, known for its strategic and divinatory aspects, is integrated into martial arts.
+2. Integration of Traditional Concepts with Modern Applications:
+Both documents integrate traditional Chinese concepts into modern practices. Timing Variability.md uses historical shinobi tactics and Chinese astrology to inform modern cybersecurity strategies. Similarly, ORGANIZATION.md describes the integration of Baguazhang (a traditional martial art) with Qimen Dunjia (a strategic and divinatory system), highlighting the application of these ancient practices in contemporary settings.
+
+Focus on [[Optimal Utilization of Resources]]:
+In Timing Variability.md, the focus is on exploiting the optimal times for cyber attacks or defenses, which is a resource in the context of cybersecurity. ORGANIZATION.md discusses the optimal use of philosophical, strategic, and practical resources within the Qimen Dunjia system to enhance martial arts training and application.
+4. [[Layered Approach to Knowledge and Application]]:
+ORGANIZATION.md explicitly mentions the inner and outer layers of the Qimen Dunjia system, representing theoretical knowledge and practical application, respectively. This concept of layered learning and application can also be seen in Timing Variability.md, where theoretical knowledge of time-based strategies is applied to practical cybersecurity measures.
+5. [[Adaptation and Flexibility]]:
+Both documents emphasize the importance of adaptation and flexibility. Timing Variability.md adapts ancient [[military timing strategies]] to modern cybersecurity, while ORGANIZATION.md adapts Qimen Dunjia for practical martial arts applications, showing flexibility in applying traditional knowledge to new domains.
+These connections illustrate how both documents explore the theme of using historical and traditional insights to enhance and inform modern practices, whether in cybersecurity or martial arts. This cross-disciplinary approach enriches the understanding and application of both fields.

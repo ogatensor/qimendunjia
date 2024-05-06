@@ -18,37 +18,6 @@ The document you are working with, `DEFINITIONS.md`, appears to be a comprehensi
 
 5. **Observing (Metal Element)**: Pertains to the analytical gathering of intelligence to inform strategies, emphasizing precision and discernment.
 
-The document also introduces advanced concepts like "Digital Space," "Control Vector," and "Deformation Tensor," which are used to describe the dynamic configurations and transformations within digital environments, particularly in augmented reality (AR), virtual reality (VR), mixed reality (MR), and the Metaverse. These concepts are part of a more complex framework that seems to be used for describing interactions and transformations within these digital spaces, using mathematical constructs like the Kronecker delta function for dynamic adjustments.
-
-The definitions are structured to build upon each other, creating a layered understanding of how various elements and actions interplay in the realm of cybersecurity and digital environments. This structured approach helps in understanding the multifaceted nature of cybersecurity, where different strategies and tactics can be employed depending on the situation and the evolving digital landscape.
----
-
-
-Definition 1.1.1
-Walking (Water Element)
-
-In the context of hacking and cybersecurity, "walking" refers to the strategic movement through a system or network to understand vulnerabilities, exploit weaknesses, and achieve objectives. Similar to martial arts principles, hackers coordinate their actions with the Nine Palace Stepping, transitioning between techniques to navigate digital landscapes effectively. Walking involves analyzing defenses, identifying weaknesses, adapting approaches, and leveraging resources like a martial artist uses their extremities. Hackers may backtrack to uncover vulnerabilities, reflecting their adaptability and precision in complex digital environments. (See Nine Palace Stepping).
-
-Definition 1.1.2
-Diving (Wood Element)
-
-In the context of hacking and cybersecurity, "diving" represents the bold, decisive, and proactive approach taken by hackers when confronting new challenges or opportunities. Akin to the wood element's innate drive and growth, hackers immerse themselves headfirst into unfamiliar territories, such as exploring the latest blockchain solutions or diving into the depths of Kubernetes. This element of their craft embodies a sense of curiosity, resilience, and a willingness to take calculated risks in order to uncover valuable insights and gain a competitive edge. Diving allows hackers to break new ground, push boundaries, and cultivate their expertise in the ever-evolving landscape of technology and cybersecurity.
-
-Definition 1.1.3
-Striking (Fire Element)
-
-In the context of hacking and cybersecurity, "striking" refers to the decisive and impactful actions taken by hackers to achieve their objectives. Similar to the fire element's intensity and transformative nature, hackers strike with precision, speed, and a relentless determination to overcome obstacles and assert their dominance. This could manifest as a targeted attack on a system's vulnerabilities, a strategic deployment of cutting-edge tools and techniques, or a calculated strike against an adversary's defenses. The fire element in hacking embodies the ability to make bold moves, seize opportunities, and ignite change within the digital realm, often with far-reaching consequences.
-
-Definition 1.1.4
-Defending (Earth Element)
-
-In the context of hacking and cybersecurity, "defending" represents the grounded, resilient, and adaptable approach taken by hackers to safeguard their own systems, networks, and digital assets. Akin to the earth element's stability and nurturing qualities, hackers cultivate robust defensive strategies, fortify their systems against potential threats, and create secure environments for their operations. This element of their craft involves meticulous planning, the implementation of comprehensive security measures, and the ability to withstand and recover from attacks. Defending allows hackers to maintain a strong foundation, provide a safe haven for their digital activities, and ensure the longevity and integrity of their systems in the face of ever-evolving cyber threats.
-
-Definition 1.1.5
-Observing (Metal Element)
-
-In the context of hacking and cybersecurity, "observing" refers to the analytical, precise, and discerning approach taken by hackers to gather intelligence, understand patterns, and identify vulnerabilities. Akin to the metal element's reflective and perceptive nature, hackers meticulously observe their digital landscapes, scrutinize data, and uncover hidden insights that inform their strategies. This element of their craft involves keen attention to detail, the ability to identify subtle anomalies, and a deep understanding of the underlying systems and technologies they seek to manipulate or protect. Observing enables hackers to make informed decisions, anticipate potential threats, and refine their techniques, ultimately enhancing their overall effectiveness in the digital realm.
-
 ---
 
 SEQUENT DEFINITIONS 

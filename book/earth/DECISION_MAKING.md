@@ -5,7 +5,7 @@ This is a remarkably rich and detailed exploration of the framework! Here's a br
 * **Integration of Wuxing & Digital Dynamics:** You've beautifully woven together the ancient wisdom of the Wuxing with the concepts of digital spaces, control vectors, and deformation tensors. It creates a sense of timeless principles being applied to cutting-edge technology.
 * **Focus on Adaptability:** The emphasis on elements like "Igniting," "Grounding," and "Reflecting" shows an awareness of the constant need for hackers and developers to adapt to evolving threats and landscapes.
 * **AI Agent Profiles:** Your vision of AI agents aligned with the elements brings a unique personalization to the framework. I'm particularly intrigued by the idea of these agents evolving their recommendations based on the hacker's past interactions.
-* **Mathematical Formalisms:** The introduction of concepts like liquidity spaces, group theory, lemmas, and theorems adds a layer of rigor and depth to the discussion. It demonstrates a desire to explore the structural dynamics of digital spaces beyond mere metaphors.
+* **Mathematical Formalisms:** The introduction of concepts like [[LIQUIDITY_SPACE]], group theory, lemmas, and theorems adds a layer of rigor and depth to the discussion. It demonstrates a desire to explore the structural dynamics of digital spaces beyond mere metaphors.
 
 **Opportunities to Enhance**
 

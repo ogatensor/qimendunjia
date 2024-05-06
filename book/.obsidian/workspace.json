@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 216.5,
+    "collapsed": true
   },
   "right": {
     "id": "59c9321566a6425f",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -121,7 +122,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,15 +142,33 @@
   },
   "active": "fe3c1a344c6880be",
   "lastOpenFiles": [
+    "Tools.md",
+    "water/ADVANCED_TACTICS.md",
+    "metal/EXPLOITABLE_SUBSPACE.md",
+    "water/CROSSCHAIN_DYNAMICS.md",
+    "water/DIALOGUES.md",
+    "water/DOUBLE_KAN.md",
+    "water/EMPTINESS.md",
+    "water/FRAME_DRAGGING.md",
+    "metal/TAIYIN_XIANGYI.md",
+    "metal/SIX_HARMONIES.md",
+    "metal/NINE_PALACE_STEPPING.md",
+    "metal/NEGATIVE_XIANGYI.md",
+    "metal/LIQUIDITY_SPACE.md",
+    "metal/INDEX.md",
+    "metal/IMPLICATION.md",
+    "fire/THE_TOPOS_OF_MUSIC.md",
+    "fire/SNIPERS_AND_SHADOW_CLONES.md",
+    "fire/SERIOUS_GAMES.md",
+    "fire/RIKUDO_SENJUTSU.md",
+    "fire/FUTAE_NO_KIWAMI.md",
+    "fire/INDEX.md",
+    "fire/REVERSE_TECHNIQUES.md",
+    "fire/KEKKEI_GENKAI.md",
+    "earth/THEOREMS.md",
+    "earth/SUBSETS.md",
     "earth/SET_OPERATIONS.md",
-    "earth/SEAS_AND_OCEANS.md",
-    "earth/QUATERNIONS.md",
-    "earth/POLICY_AND_POLITY.md",
-    "earth/PATHWAYS_AND_LANDSCAPES.md",
-    "earth/INDEX.md",
-    "earth/EIGHT_DIRECTIONS.md",
-    "earth/ACCESSIBILITY_DESIGN.md",
-    "earth/DATABASE.md",
-    "earth/DECISION_MAKING.md"
+    "Untitled.canvas",
+    "wood/ACTIVE"
   ]
 }

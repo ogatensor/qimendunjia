@@ -1,5 +1,7 @@
 # Overview 
 
+[[MARCO_POLOS_WORLD]]
+
 A bracing assessment of U.S. foreign policy and world disorder over the past two decades from the bestselling author of The Revenge of Geography and The Coming Anarchy
  
 “[Kaplan] has emerged not only as an eloquent defender of foreign-policy realism but as a grand strategist to whom the Pentagon turns for a tour d’horizon.”—The Wall Street Journal
