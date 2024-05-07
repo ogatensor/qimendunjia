@@ -1,0 +1,19 @@
+
+You can use the framework of the shinobi’s hours of infiltration to develop time-based security that takes into account the baseline states of the network at various times, deviations from baseline, and business requirements. Applying time-based security is broadly achieved through three steps:
+
+1. Determine the activity baseline for each hour.
+2. Train personnel to monitor activity and become very familiar with typical activity during their assigned hours.
+3. Assess the business needs for each hour. Based on this assessment, create business logic and security axioms to further mitigate threats and detect anomalies.
+
+First, consider dividing your network and system logs into one- or two-hour segments. Review the historical trends and activity levels of your network and systems to establish a baseline, a critical metric for threat hunting and identifying cyberhygiene issues. Pay special attention to times when attacks have occurred, as well as times that may be routinely vulnerable to attack as determined by the organization’s circumstances, threat modeling, and experience.
+
+Once all the data has been segmented and baselined, train analysts, system administrators, and security professionals to become extremely familiar with your network’s activity patterns. They should also be aware of the security gaps that organizational routines create. The shinobi scrolls instruct guards to scrutinize every irregularity and incongruity during their shift. For instance, they are expected to notice when a fisherman arrives later than normal or if an unfamiliar bird calls at an odd hour. Having security personnel similarly attuned to incongruities could prompt them to look twice at an abnormal event, which could reveal a security incident. Developing this deep expertise might require assigning security to monitor a sector—for instance, a single system that is considered a likely target—become extremely familiar with it, and then review every log and event from that system for a two-hour time frame during their eight-hour shift. This strategy is in stark contrast to the “monitor everything at all times” mentality of most SOCs—a mentality that causes alert fatigue, overload, and burnout. It should also mitigate the problems of many automated anomaly detection systems, which need a human to follow up on every anomaly and provide feedback and investigation. These systems quickly become overwhelming and the data inscrutable to security personnel who review anomalies on a daily or weekly basis.
+
+Note that security logs are not ephemeral, like sounds in the night, but are available for future analysis. It is plausible that a sophisticated adversary might alter or eliminate security logs, filter traffic from network taps and sensors, or otherwise compromise the systems intended to log their intrusion and alert security. However, these actions should disrupt a system’s normal behavior enough that an astute security analyst takes notice.
+
+Next, you will want to ask yourself two questions:
+
+- When are your users and systems active?
+- When could the adversary be active?
+
+Understanding how and when users log into and operate your systems helps you strategically constrain access, making it more difficult for an external or internal threat to infiltrate at your most vulnerable times. For example, if a system is not in use between 8:00 PM and 8:00 AM, turn off that system during those hours. If users have no business need to access their systems on Saturdays, then disable access to those systems for all users on Saturdays. Disabling systems at scheduled times also helps train your SOC staff to detect anomalies during specific hours, as there will be fewer alerts and systems to review. NIST standards suggest implementing such access controls, but many organizations choose instead to prioritize certain scenarios for operational convenience in emergencies, however unlikely these occurrences may be.

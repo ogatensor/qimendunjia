@@ -32,7 +32,6 @@ The overall theme is the strong parallels between the mindset, techniques, and s
 
 ---
 
-
 # The Four Theorems 
 Theorem 1.1.1
 
