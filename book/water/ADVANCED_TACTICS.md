@@ -1,16 +1,18 @@
 # Table of Contents
 
 1. Introduction
-2. Timing Variability in Ethereum
-3. Layer 2 Solutions and Timing
+2. [[Timing Variability]] 
+3. [[Layer 2]] Solutions and Timing
 4. Risks of Using `block.number` for Timing
-5. EIP-4626 Inflation/Sandwich Attack
-6. Recommendations for Precise Timing
-7. Conclusion
+5. [[EIP-4626 Inflation/Sandwich Attack]]
+6. [[Recommendations for Precise Timing]]
+7. [[Tools]]
+8. Conclusion
 
-The content in `ADVANCED_TACTICS.md` discusses the challenges and risks associated with using `block.number` for precise timing in Ethereum. It highlights the variability in block production times on the Ethereum mainnet and the differences in timing mechanisms between Layer 1 and Layer 2 solutions. The document emphasizes the importance of understanding these timing nuances to avoid inaccuracies in time-sensitive operations.
 
-Furthermore, it delves into the EIP-4626 Inflation/Sandwich Attack, which exploits vulnerabilities in pricing functions to manipulate exchange rates and cause inflation in token pairs. The attack involves depositing to a vault, transferring ERC20 tokens, and front-running victim deposits to manipulate prices. The document suggests using a set of off-chain oracles and taking the mean of prices to mitigate risks associated with oracle manipulation attacks.
+The content in [[ADVANCED_TACTICS.md]] discusses the challenges and risks associated with using `block.number` for precise timing in [[Ethereum]]. It highlights the variability in block production times on the Ethereum mainnet and the differences in timing mechanisms between [[Layer 1]] and [[Layer 2]] solutions. The document emphasizes the importance of understanding these timing nuances to avoid inaccuracies in time-sensitive operations.
+
+Furthermore, it delves into the [[EIP-4626 Inflation/Sandwich Attack]], which exploits vulnerabilities in pricing functions to manipulate exchange rates and cause inflation in token pairs. The attack involves depositing to a vault, transferring ERC20 tokens, and front-running victim deposits to manipulate prices. The document suggests using a set of off-chain oracles and taking the mean of prices to mitigate risks associated with [[oracle manipulation attacks]].
 
 Overall, the document provides valuable insights into the intricacies of timing in Ethereum, the risks of relying on `block.number` for timing, and the potential vulnerabilities associated with pricing functions that can be exploited in attacks like the EIP-4626 Inflation/Sandwich Attack. It underscores the importance of understanding these concepts for developers and practitioners in the Ethereum ecosystem to enhance security and precision in their operations.
 --- 
@@ -46,10 +48,9 @@ and inflation attacks
 a less niave solution would be to use a set of off-chain chainlink, pyth, <insert investor> oracles, then take the mean not the average of those prices as "ground truth" for that particular tick.
 https://docs.pyth.network/price-feeds/how-pyth-works
 https://www.halborn.com/blog/post/what-is-oracle-manipulation-a-comprehensive-guide
-What Is Oracle Manipulation? A Comprehensive Guide
+What Is [[Oracle Manipulation]]? A Comprehensive Guide
 Halborn provides an overview of oracle manipulation attacks and strategies for safeguarding your project against oracle exploits.
 What Is Oracle Manipulation? A Comprehensive Guide
-
 Medium
 EIP-4626 Inflation/ Sandwich Attack Deep Dive And How to Solve It
 TL;DR EIP-4626 tokenised vaults are susceptible to inflation attacks if the exchange rate of assets deposited and ERC20 shares minted isn’t…
@@ -61,21 +62,21 @@ Here is the information organized in a table format:
 
 | Concept | Definition |
 |---------|------------|
-| Liquidity Space $\mathcal{L}$ | A vector space representing the digital space where token pairs reside, allowing for trading. |
-| Exploitable Subspace $\mathcal{L}^e$ | A subset of $\mathcal{L}$ where token pairs are exploitable, enabling profitable trading opportunities. |
-| Detection Function $\delta$ | A function mapping token pairs to a binary group $\{0, 1\}$, indicating exploitability status. |
-| Activation Function $\sigma$ | A function transforming non-exploitable token pairs into exploitable ones within $\mathcal{L}^e$. |
+| [[Liquidity Space]] $\mathcal{L}$ | A vector space representing the digital space where token pairs reside, allowing for trading. |
+| [[Exploitable Subspace]] $\mathcal{L}^e$ | A subset of $\mathcal{L}$ where token pairs are exploitable, enabling profitable trading opportunities. |
+| [[Detection Function]] $\delta$ | A function mapping token pairs to a binary group $\{0, 1\}$, indicating exploitability status. |
+| [[Activation Function]] $\sigma$ | A function transforming non-exploitable token pairs into exploitable ones within $\mathcal{L}^e$. |
 | Group Structure of $\mathcal{L}$ | $\mathcal{L}$ forms an Abelian group under vector addition, with token pairs as elements. |
 | Group Action of $\delta$ | $\delta$ acts as a group homomorphism mapping $\mathcal{L}$ to the Boolean group $\{0, 1\}$. |
 | Group Action of $\sigma$ | $\sigma$ acts as a group action of the deformation tensor on $\mathcal{L}$, transforming token pairs. |
 
 | Lemma | Description |
 |-------|-------------|
-| Lemma 4 (Boundary Condition: Subspaces) | Defines three disjoint subspaces in the liquidity space: positive, negative, and boundary subspaces. |
-| Corollary 1 (States Outside the Boundary Conditions) | States conditions for token pairs outside the liquidity space, involving zero vectors and the negative subspace. |
-| Lemma 5 (Pricing Function) | Introduces a pricing function consistent with the LP AMM function, connecting token pair prices to subspaces. |
-| Lemma 3 (Token Pair Conditions) | States conditions for token pairs in the liquidity space, ensuring non-zero values for $\vec{x}$ and $\vec{y}$. |
-| Lemma 6 (Exploitable Subspace Definition) | Defines the exploitable subspace as a union of the negative and boundary subspaces. |
+| Lemma 4 (Boundary Condition: [[Subspaces]]) | Defines three disjoint subspaces in the liquidity space: positive, negative, and boundary subspaces. |
+| Corollary 1 ([[States Outside the Boundary Conditions]]) | States conditions for token pairs outside the liquidity space, involving zero vectors and the negative subspace. |
+| Lemma 5 ([[Pricing Function]]) | Introduces a pricing function consistent with the LP AMM function, connecting token pair prices to subspaces. |
+| Lemma 3 ([[Token Pair Conditions]]) | States conditions for token pairs in the liquidity space, ensuring non-zero values for $\vec{x}$ and $\vec{y}$. |
+| Lemma 6 ([[Exploitable Subspace]] Definition) | Defines the exploitable subspace as a union of the negative and boundary subspaces. |
 
 | Theorem | Description |
 |---------|-------------|
@@ -93,9 +94,9 @@ Proof:
 
 2. **Pricing Function and Subspaces**: Theorem 1 establishes the relationship between the pricing function, token pair subspaces, and corresponding price vector properties. Specifically, it states that if the pricing function is consistent with the LP AMM function, then the price vector will have properties corresponding to the positive, negative, and boundary subspaces.
 
-3. **Existence of Exploitable Subspace**: Theorem 2 proves the existence of an exploitable subspace $\mathcal{L}^e$ based on the pricing function consistency. This means that there is a non-empty subset of the liquidity space where token pairs can be exploited.
+3. **Existence of [[Exploitable Subspace]]**: Theorem 2 proves the existence of an exploitable subspace $\mathcal{L}^e$ based on the pricing function consistency. This means that there is a non-empty subset of the liquidity space where token pairs can be exploited.
 
-4. **Sandwich Attack Mechanism**: The search results[^1](https://tienshaoku.medium.com/eip-4626-inflation-sandwich-attack-deep-dive-and-how-to-solve-it-9e3e320cc3f1), [^2](https://medium.com/@0x.offchain/eip4626-inflation-attack-briefly-explained-250f8a8e424e), and [^3](https://ethereum-magicians.org/t/address-eip-4626-inflation-attacks-with-virtual-shares-and-assets/12677) explain the mechanism of the EIP-4626 inflation/sandwich attack:
+4. **[[Sandwich Attack Mechanism]]**: The search results[^1](https://tienshaoku.medium.com/eip-4626-inflation-sandwich-attack-deep-dive-and-how-to-solve-it-9e3e320cc3f1), [^2](https://medium.com/@0x.offchain/eip4626-inflation-attack-briefly-explained-250f8a8e424e), and [^3](https://ethereum-magicians.org/t/address-eip-4626-inflation-attacks-with-virtual-shares-and-assets/12677) explain the mechanism of the EIP-4626 inflation/sandwich attack:
    - The attacker deposits to the vault to mint shares.
    - The attacker also transfers ERC20 tokens directly to the vault.
    - The victim (depositor) then deposits, and the attacker can front-run the victim's deposit, manipulating the exchange rate and causing inflation.
@@ -116,3 +117,20 @@ More sophisticated adversaries develop tradecraft to perform passive mapping, a 
 
 Another method for mapping a network without directly interacting with it is to collect a network admin’s emails as they leave the network, searching for network maps of the target in an external file storage-sharing environment, or looking in third-party troubleshooting help forums where the admin may post logs/errors, router configurations, network debugging/tracert/ping, or other technical details that disclose the layout and configuration of the network.
 
+## Backlinks
+- [[INDEX]]
+- [[Timing Variability]]
+- [[Layer 2]]
+- [[EIP-4626 Inflation/Sandwich Attack]]
+- [[Recommendations for Precise Timing]]
+- [[Oracle Manipulation]]
+- [[Liquidity Space]]
+- [[Exploitable Subspace]]
+- [[Detection Function]]
+- [[Activation Function]]
+- [[Subspaces]]
+- [[States Outside the Boundary Conditions]]
+- [[Pricing Function]]
+- [[Token Pair Conditions]]
+- [[Sandwich Attack Mechanism]]
+- [[Sabotage]]

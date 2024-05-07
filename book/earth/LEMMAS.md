@@ -2,7 +2,7 @@
 
 The content from [book/earth/LEMMAS.md](file:///Users/andrewowens/qimendunjia/book/earth/LEMMAS.md#1%2C1-1%2C1) discusses the mathematical properties of quaternions and their relationship to vector operations, specifically focusing on the cross product and its geometric interpretations. Here’s a concise explanation of the key points:
 
-1. **Quaternions and Vector Operations**:
+1. **[[Quaternions]] and [[Vector Operations]]**:
    - Quaternions are extended complex numbers used in three-dimensional space calculations. The document explores how the product of two quaternions relates to the cross product of vectors, which are components of these quaternions.
 
 2. **Lemma 1 (Wood-Fire-Earth Relationship)**:
@@ -103,3 +103,23 @@ Absolutely! Let's break down those geometric interpretations:
 * **Quaternion Power:** The quaternion, however, goes much further.  The quaternion product as a whole not only includes the area and normal vector information but also the specific angle of rotation about that axis. 
 
 **Would you like to visualize these vectors and the plane they define? Or perhaps discuss how this rotational property is used within quaternions to represent transformations in 3D?**
+## See Also
+- [[ACCESSIBILITY_DESIGN.md]]
+- [[DATABASE.md]]
+- [[DECISION_MAKING.md]]
+- [[DEFINITIONS.md]]
+- [[GLOSSARY.md]]
+- [[EIGHT_DIRECTIONS.md]]
+- [[ESCAPING_TECHNIQUES.md]]
+- [[VAULTS.md]]
+- [[PROOF_AND_CONCEPTION.md]]
+- [[THEOREMS.md]]
+- [[SEISHITSU_HENKA.md]]
+- [[MECHANISM_DESIGN.md]]
+- [[PROTOCOL.md]]
+- [[POLICY_AND_POLITY.md]]
+- [[PATHWAYS_AND_LANDSCAPES.md]]
+- [[SET_OPERATIONS.md]]
+- [[SUBSETS.md]]
+- [[SHAPES.md]]
+- [[QUATERNIONS.md]]

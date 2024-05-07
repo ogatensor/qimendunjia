@@ -1,11 +1,11 @@
 ## Overview
 
-The document you are working with discusses various mathematical and set-theoretical concepts applied to the analysis of liquidity pools in a hypothetical Automated Market Maker (AMM) system called the Thruster Classic AMM. Here's a breakdown of the key concepts and examples provided in the document:
+The document you are working with discusses various mathematical and set-theoretical concepts applied to the analysis of liquidity pools in a hypothetical [[Automated Market Maker (AMM) system]] called the [[Thruster Classic AMM]]. Here's a breakdown of the key concepts and examples provided in the document:
 
-### Set Operations
-- **Union ($\cup$)**: Used to find all unique token pairs across multiple liquidity pools (e.g., $T = T_A \cup T_B \cup T_C$).
-- **Intersection ($\cap$)**: Used to identify common fee tiers across all pools (e.g., $F = F_A \cap F_B \cap F_C$).
-- **Complement ($\setminus$)**: Used to determine fee tiers or token pairs that are unique to one pool compared to others (e.g., $F_B \setminus F_A$).
+### [[Set Operations]]
+- **[[Union]]($\cup$)**: Used to find all unique token pairs across multiple liquidity pools (e.g., $T = T_A \cup T_B \cup T_C$).
+- **[[Intersection]] ($\cap$)**: Used to identify common fee tiers across all pools (e.g., $F = F_A \cap F_B \cap F_C$).
+- **[[Complement]] ($\setminus$)**: Used to determine fee tiers or token pairs that are unique to one pool compared to others (e.g., $F_B \setminus F_A$).
 
 ### Logical Implications and Bi-implications
 - **Implications**: If one condition changes (like liquidity depth), it affects another (like the Deformation Tensor). For example, an increase in liquidity depth in Pool A leads to a change in its Deformation Tensor.
@@ -13,7 +13,7 @@ The document you are working with discusses various mathematical and set-theoret
 
 ### Advanced Mathematical Concepts
 - **Tensor Contraction**: This is used to analyze how changes in parameters like liquidity depth and fee tiers affect the price function through the Deformation Tensor.
-- **Dedekind Cuts**: These are used to partition the liquidity space based on common properties like token pairs or fee tiers, helping identify subspaces within the liquidity space that share common characteristics.
+- **Dedekind Cuts**: These are used to partition the [[LIQUIDITY_SPACE]] based on common properties like token pairs or fee tiers, helping identify subspaces within the [[LIQUIDITY_SPACE]] that share common characteristics.
 
 ### Practical Applications
 - **Analyzing Changes**: By understanding how parameters like fee tiers affect the Deformation Tensor, stakeholders can predict and react to changes in the market dynamics.
@@ -22,7 +22,7 @@ The document you are working with discusses various mathematical and set-theoret
 
 Overall, the document uses these mathematical tools to provide a deep analytical framework for understanding and optimizing trading strategies within the Thruster Classic AMM's liquidity pools.
 
-Okay, let's do an example that showcases how the set operations defined in Definition 1.1.2 can be useful in the context of the liquidity space.
+Okay, let's do an example that showcases how the set operations defined in Definition 1.1.2 can be useful in the context of the [[LIQUIDITY_SPACE]].
 
 Example:
 Suppose we have three liquidity pools: Pool A, Pool B, and Pool C. Each pool has its own set of token pairs and fee tiers. Let's denote the sets as follows:
@@ -62,7 +62,7 @@ Now, let's consider the following scenarios and see how the set operations can b
 By using the set operations defined in Definition 1.1.2, we can gain valuable insights into the capabilities and features of the Thruster Classic AMM, such as the breadth of supported token pairs, the common fee tiers, and the differences between individual liquidity pools. These insights can help users make informed decisions about which pools to use and how to optimize their trading strategies.
 
 -- 
-Okay, let's try an example that combines the concepts from Notation 1.1.1 (logical implications and bi-implications) and Definition 1.1.3 (the liquidity space and its components) in the context of the Thruster Classic AMM.
+Okay, let's try an example that combines the concepts from Notation 1.1.1 (logical implications and bi-implications) and Definition 1.1.3 (the [[LIQUIDITY_SPACE]] and its components) in the context of the Thruster Classic AMM.
 
 Example:
 Suppose we have two liquidity pools, Pool A and Pool B, with the following properties:
@@ -75,9 +75,9 @@ Suppose we have two liquidity pools, Pool A and Pool B, with the following prope
      - The liquidity depth L(B) in Pool B is constant if and only if the Deformation Tensor D(L(B), Q(f, t)) for Pool B is zero.
      - Formally: $L(B, t) = L(B, t_0) \forall t \geq t_0 \Leftrightarrow D(L(B, t), Q(f, t)) = 0 \forall t \geq t_0$
 
-2. The Liquidity Space and Its Components:
-   - The liquidity space $\mathcal{L}$ is the collection of all liquidity pools in the Thruster Classic AMM.
-   - Each liquidity pool $\mathcal{L}_i$ in the liquidity space $\mathcal{L}$ has the following components:
+2. The [[LIQUIDITY_SPACE]] and Its Components:
+   - The [[LIQUIDITY_SPACE]] $\mathcal{L}$ is the collection of all liquidity pools in the Thruster Classic AMM.
+   - Each liquidity pool $\mathcal{L}_i$ in the [[LIQUIDITY_SPACE]] $\mathcal{L}$ has the following components:
      - Token pair set $T_i$
      - Fee tier set $F_i$
      - Liquidity depth $L_i$
@@ -91,7 +91,7 @@ Now, let's consider the following scenarios and see how the concepts from Notati
    - This means that the price function P(f, t) in Pool A is affected by the changes in the liquidity depth, as described by the Deformation Tensor.
 
 2. **Comparing the properties of the two pools:**
-   - From Definition 1.1.3, we know that each liquidity pool $\mathcal{L}_i$ in the liquidity space $\mathcal{L}$ has a set of token pairs $T_i$ and a set of fee tiers $F_i$.
+   - From Definition 1.1.3, we know that each liquidity pool $\mathcal{L}_i$ in the [[LIQUIDITY_SPACE]] $\mathcal{L}$ has a set of token pairs $T_i$ and a set of fee tiers $F_i$.
    - We can compare the token pair sets and fee tier sets of Pool A and Pool B to understand the differences in the capabilities of the two pools.
    - For example, if $T_A \neq T_B$, it means that the two pools support different sets of token pairs, which can be valuable information for users.
    - Similarly, if $F_A \neq F_B$, it indicates that the two pools have different fee structures, which can affect the trading costs for users.
@@ -100,7 +100,7 @@ Now, let's consider the following scenarios and see how the concepts from Notati
    - From the bi-implication in Notation 1.1.1, we can see that the liquidity depth L(B) in Pool B is constant if and only if the Deformation Tensor D(L(B), Q(f, t)) for Pool B is zero.
    - This means that if the liquidity depth in Pool B remains constant over time, the price function Q(f, t) in Pool B is not affected by changes in the liquidity depth, as described by the Deformation Tensor.
 
-By combining the logical implications and bi-implications from Notation 1.1.1 with the components of the liquidity space from Definition 1.1.3, we can gain a deeper understanding of the properties and behavior of the Thruster Classic AMM's liquidity pools. This knowledge can be valuable for users, developers, and researchers working with the Thruster Classic AMM.
+By combining the logical implications and bi-implications from Notation 1.1.1 with the components of the [[LIQUIDITY_SPACE]] from Definition 1.1.3, we can gain a deeper understanding of the properties and behavior of the Thruster Classic AMM's liquidity pools. This knowledge can be valuable for users, developers, and researchers working with the Thruster Classic AMM.
 
 ---
 
@@ -117,9 +117,9 @@ Suppose we have three liquidity pools in the Thruster Classic AMM: Pool A, Pool 
      - The liquidity depth L(B) in Pool B is constant if and only if the Deformation Tensor D(L(B), Q(f, t)) for Pool B is zero.
      - Formally: $L(B, t) = L(B, t_0) \forall t \geq t_0 \Leftrightarrow D(L(B, t), Q(f, t)) = 0 \forall t \geq t_0$
 
-2. The Liquidity Space and Its Components:
-   - The liquidity space $\mathcal{L}$ is the collection of all liquidity pools in the Thruster Classic AMM.
-   - Each liquidity pool $\mathcal{L}_i$ in the liquidity space $\mathcal{L}$ has the following components:
+2. The [[LIQUIDITY_SPACE]] and Its Components:
+   - The [[LIQUIDITY_SPACE]] $\mathcal{L}$ is the collection of all liquidity pools in the Thruster Classic AMM.
+   - Each liquidity pool $\mathcal{L}_i$ in the [[LIQUIDITY_SPACE]] $\mathcal{L}$ has the following components:
      - Token pair set $T_i$
      - Fee tier set $F_i$
      - Liquidity depth $L_i$
@@ -158,7 +158,7 @@ By combining the concepts from Notation 1.1.1, Definition 1.1.3, and Definition 
 
 ---
 
-Great, let's explore how we can leverage tensor contraction and Dedekind cuts in the context of the Thruster Classic AMM and the liquidity space.
+Great, let's explore how we can leverage tensor contraction and Dedekind cuts in the context of the Thruster Classic AMM and the [[LIQUIDITY_SPACE]].
 
 1. **Tensor Contraction**:
    - The Deformation Tensor $D_i(L_i, P_i(f, t))$ for each liquidity pool $\mathcal{L}_i$ can be viewed as a tensor.
@@ -170,21 +170,21 @@ Great, let's explore how we can leverage tensor contraction and Dedekind cuts in
    - This can help us understand the sensitivity of the price function to various parameters and how the different liquidity pools respond to these changes.
 
 2. **Dedekind Cuts**:
-   - The liquidity space $\mathcal{L}$ can be seen as a collection of liquidity pools, each with its own set of token pairs $T_i$ and fee tiers $F_i$.
-   - We can use Dedekind cuts to partition the liquidity space based on these sets:
-     - Partition the liquidity space based on the token pair sets: $\mathcal{L} = \{L_i | T_i = T\}$
-     - Partition the liquidity space based on the fee tier sets: $\mathcal{L} = \{L_i | F_i = F\}$
-   - This can help us identify subspaces within the liquidity space that share common properties, such as the same set of token pairs or fee tiers.
+   - The [[LIQUIDITY_SPACE]] $\mathcal{L}$ can be seen as a collection of liquidity pools, each with its own set of token pairs $T_i$ and fee tiers $F_i$.
+   - We can use Dedekind cuts to partition the [[LIQUIDITY_SPACE]] based on these sets:
+     - Partition the [[LIQUIDITY_SPACE]] based on the token pair sets: $\mathcal{L} = \{L_i | T_i = T\}$
+     - Partition the [[LIQUIDITY_SPACE]] based on the fee tier sets: $\mathcal{L} = \{L_i | F_i = F\}$
+   - This can help us identify subspaces within the [[LIQUIDITY_SPACE]] that share common properties, such as the same set of token pairs or fee tiers.
    - These subspaces can be useful for various applications, such as:
      - Optimizing user routing between liquidity pools based on their specific requirements
      - Analyzing the overall depth and liquidity of the Thruster Classic AMM for different token pairs and fee tiers
      - Identifying potential arbitrage opportunities between the different liquidity pools
 
-By applying tensor contraction and Dedekind cuts, we can gain a deeper understanding of the Thruster Classic AMM's liquidity space and the relationships between its various components. This can lead to insights that can be leveraged for improved user experience, more efficient trading strategies, and better overall management of the Thruster Classic AMM.
+By applying tensor contraction and Dedekind cuts, we can gain a deeper understanding of the Thruster Classic AMM's [[LIQUIDITY_SPACE]] and the relationships between its various components. This can lead to insights that can be leveraged for improved user experience, more efficient trading strategies, and better overall management of the Thruster Classic AMM.
 
 ---
 
-Great, let's explore how we can leverage tensor contraction and Dedekind cuts in the context of the Thruster Classic AMM and the liquidity space.
+Great, let's explore how we can leverage tensor contraction and Dedekind cuts in the context of the Thruster Classic AMM and the [[LIQUIDITY_SPACE]].
 
 1. **Tensor Contraction**:
    - The Deformation Tensor $D_i(L_i, P_i(f, t))$ for each liquidity pool $\mathcal{L}_i$ can be viewed as a tensor.
@@ -196,17 +196,43 @@ Great, let's explore how we can leverage tensor contraction and Dedekind cuts in
    - This can help us understand the sensitivity of the price function to various parameters and how the different liquidity pools respond to these changes.
 
 2. **Dedekind Cuts**:
-   - The liquidity space $\mathcal{L}$ can be seen as a collection of liquidity pools, each with its own set of token pairs $T_i$ and fee tiers $F_i$.
-   - We can use Dedekind cuts to partition the liquidity space based on these sets:
-     - Partition the liquidity space based on the token pair sets: $\mathcal{L} = \{L_i | T_i = T\}$
-     - Partition the liquidity space based on the fee tier sets: $\mathcal{L} = \{L_i | F_i = F\}$
-   - This can help us identify subspaces within the liquidity space that share common properties, such as the same set of token pairs or fee tiers.
+   - The [[LIQUIDITY_SPACE]] $\mathcal{L}$ can be seen as a collection of liquidity pools, each with its own set of token pairs $T_i$ and fee tiers $F_i$.
+   - We can use Dedekind cuts to partition the [[LIQUIDITY_SPACE]] based on these sets:
+     - Partition the [[LIQUIDITY_SPACE]] based on the token pair sets: $\mathcal{L} = \{L_i | T_i = T\}$
+     - Partition the [[LIQUIDITY_SPACE]] based on the fee tier sets: $\mathcal{L} = \{L_i | F_i = F\}$
+   - This can help us identify subspaces within the [[LIQUIDITY_SPACE]] that share common properties, such as the same set of token pairs or fee tiers.
    - These subspaces can be useful for various applications, such as:
      - Optimizing user routing between liquidity pools based on their specific requirements
      - Analyzing the overall depth and liquidity of the Thruster Classic AMM for different token pairs and fee tiers
      - Identifying potential arbitrage opportunities between the different liquidity pools
 
-By applying tensor contraction and Dedekind cuts, we can gain a deeper understanding of the Thruster Classic AMM's liquidity space and the relationships between its various components. This can lead to insights that can be leveraged for improved user experience, more efficient trading strategies, and better overall management of the Thruster Classic AMM.
+By applying tensor contraction and Dedekind cuts, we can gain a deeper understanding of the Thruster Classic AMM's [[LIQUIDITY_SPACE]] and the relationships between its various components. This can lead to insights that can be leveraged for improved user experience, more efficient trading strategies, and better overall management of the Thruster Classic AMM.
+
+---
+
+Great, let's explore how we can leverage tensor contraction and Dedekind cuts in the context of the Thruster Classic AMM and the [[LIQUIDITY_SPACE]].
+
+1. **Tensor Contraction**:
+   - The Deformation Tensor $D_i(L_i, P_i(f, t))$ for each liquidity pool $\mathcal{L}_i$ can be viewed as a tensor.
+   - Tensor contraction can be used to analyze the relationships between the different components of the Deformation Tensor:
+     - Liquidity depth $L_i$
+     - Price function $P_i(f, t)$
+     - Potentially other relevant factors
+   - By contracting the tensor, we can gain insights into how changes in the liquidity depth and fee tiers affect the price function, as described by the Deformation Tensor.
+   - This can help us understand the sensitivity of the price function to various parameters and how the different liquidity pools respond to these changes.
+
+2. **Dedekind Cuts**:
+   - The [[LIQUIDITY_SPACE]] $\mathcal{L}$ can be seen as a collection of liquidity pools, each with its own set of token pairs $T_i$ and fee tiers $F_i$.
+   - We can use Dedekind cuts to partition the [[LIQUIDITY_SPACE]] based on these sets:
+     - Partition the [[LIQUIDITY_SPACE]] based on the token pair sets: $\mathcal{L} = \{L_i | T_i = T\}$
+     - Partition the [[LIQUIDITY_SPACE]] based on the fee tier sets: $\mathcal{L} = \{L_i | F_i = F\}$
+   - This can help us identify subspaces within the [[LIQUIDITY_SPACE]] that share common properties, such as the same set of token pairs or fee tiers.
+   - These subspaces can be useful for various applications, such as:
+     - Optimizing user routing between liquidity pools based on their specific requirements
+     - Analyzing the overall depth and liquidity of the Thruster Classic AMM for different token pairs and fee tiers
+     - Identifying potential arbitrage opportunities between the different liquidity pools
+
+By applying tensor contraction and Dedekind cuts, we can gain a deeper understanding of the Thruster Classic AMM's [[LIQUIDITY_SPACE]] and the relationships between its various components. This can lead to insights that can be leveraged for improved user experience, more efficient trading strategies, and better overall management of the Thruster Classic AMM.
 
 ---
 
@@ -271,5 +297,28 @@ We can use the Kronecker delta function to compare the properties of these liqui
 
 This analysis shows that the three liquidity pools have completely different token pair sets and fee tier sets, indicating that they serve distinct purposes and may have different characteristics in terms of liquidity depth, price sensitivity, and user trading behavior.
 
-These examples demonstrate how tensor contraction, Dedekind cuts, and the Kronecker delta function can be used to gain insights into the Thruster Classic AMM's liquidity space and the relationships between its various components. By applying these techniques, we can better understand the capabilities, behavior, and differences between the liquidity pools, which can inform decision-making, trading strategies, and overall management of the Thruster Classic AMM.
+These examples demonstrate how tensor contraction, Dedekind cuts, and the Kronecker delta function can be used to gain insights into the Thruster Classic AMM's [[LIQUIDITY_SPACE]] and the relationships between its various components. By applying these techniques, we can better understand the capabilities, behavior, and differences between the liquidity pools, which can inform decision-making, trading strategies, and overall management of the Thruster Classic AMM.
 
+---
+
+## See Also
+- [[ACCESSIBILITY_DESIGN.md]]
+- [[DATABASE.md]]
+- [[DECISION_MAKING.md]]
+- [[DEFINITIONS.md]]
+- [[GLOSSARY.md]]
+- [[EIGHT_DIRECTIONS.md]]
+- [[ESCAPING_TECHNIQUES.md]]
+- [[VAULTS.md]]
+- [[LEMMAS.md]]
+- [[PROOF_AND_CONCEPTION.md]]
+- [[THEOREMS.md]]
+- [[SEISHITSU_HENKA.md]]
+- [[MECHANISM_DESIGN.md]]
+- [[PROTOCOL.md]]
+- [[POLICY_AND_POLITY.md]]
+- [[PATHWAYS_AND_LANDSCAPES.md]]
+- [[SET_OPERATIONS.md]]
+- [[SUBSETS.md]]
+- [[SHAPES.md]]
+- [[QUATERNIONS.md]]

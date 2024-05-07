@@ -21,7 +21,7 @@ The `qimendunjia/book/water` directory contains the following files organized in
 | **THE_TALE_OF_THE_HEIKE.md**  | Information about the Tale of the Heike.                                                         |
 | **TRANSCRIPTION.md**          | Elements, theorems, and definitions related to transcription.                                    |
 | **TRANSFORMATIONS.md**        | Elements, theorems, and definitions related to transformations.                                  |
-| **WUJI_AND_TAIJI_STATE.md**   | Notes and modifications related to the wuji and taiji state.                                     |
+| **WUJI_AND_TAIJI_STATE.md**   | Notes and modifications related to the [[Wuji State]] and taiji state.                          |
 
 The repository also includes the usual configuration files, such as `.gitignore`, `Containerfile`, `README.md`, and various other configuration files for the project.
 

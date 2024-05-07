@@ -3,22 +3,22 @@ To create a table of contents for the file `DOUBLE_KAN.md`, you can extract the 
 1. **Introduction**
 2. **I CHING**
    - The Yi King
-3. **Hexagram 29: Kǎn (Abyss)**
+3. **[[Hexagram]] 29: Kǎn (Abyss)**
    - Action: Relinquish
    - Hu Gua (hidden influence) 27: Nourishing Vision: Nurture
    - Zong Gua (underlying cause) 30: Clarity: Persist
 4. **Interpretation of Kǎn**
    - Reading at a Glance
-   - Symbolism and Meaning
-   - Hero's Journey
-   - Surrendering Control
-   - Confronting Fear
-   - Testing Time
-   - Trusting the Process
-5. **Symbolism of Water**
-   - Flowing Water
-   - Abysmal Water
-   - Transformation through Water
+   - [[Symbolism and Meaning]]
+   - [[Hero's Journey]]
+   - [[Surrendering Control]]
+   - [[Confronting Fear]]
+   - [[Testing Time]]
+   - [[Trusting the Process]]
+5. **[[Symbolism of Water]]**
+   - [[Flowing Water]]
+   - [[Abysmal Water]]
+   - [[Transformation through Water]]
 6. **Unchanging**
    - Danger Repeated
 7. **Hexagram 29 Lines Interpretation**
@@ -30,7 +30,7 @@ To create a table of contents for the file `DOUBLE_KAN.md`, you can extract the 
    - Line 6
 8. **Conclusion**
 9. **References**
-   - Way of Tao
+   - [[Way of Tao]]
    - Essential I Ching Book by Kari Hohne
    - Nothing Bad Happens in Life by Kari Hohne
 
@@ -46,15 +46,15 @@ Kǎn (Abyss)
 
 Action: Relinquish
 
-Hu Gua (hidden influence) 27: Nourishing Vision: Nurture
+Hu Gua (hidden influence) 27: [[Nourishing Vision: Nurture]]
 
-Zong Gua (underlying cause) 30: Clarity: Persist
+Zong Gua (underlying cause) 30: [[Clarity: Persist]]
 
 If you cannot change the direction of the wind, adjust your sails and let it guide you.
 
-For the benefit of the flowers, we water the thorns too. – Egyptian Proverb
+[[For the benefit of the flowers, we water the thorns too. – Egyptian Proverb]]
 
-Reading at a Glance: Kǎn reveals how we explore a path even when it feels dangerous. Whatever your question, there is an element of needing to go deep below the surface to uncover what is really happening no matter how frightening. The idea of Nourishing Vision can also lead to staying away because of fear. In every hero journey, just when success is on the horizon, the nemesis reappears. Will we fight or flee? Will we allow the challenge to teach us something? Will we continue to Nourish Vision in unhealthy ways? We are told not to Persist in an old way even when we might not understand the new way. This is similar to the dark night of the soul where life seems to engulf us in confusion and we give up hope. Can you honestly look back and not see the meaning for any challenges you faced? The situation is highly charged, but like the hero, going through the danger is necessary to discover who you are, what you really need and what you are capable of accomplishing. In hero myths one often discovers that the nemesis is actually a teacher, sometimes even a parent! In this case, the dangerous flow of water that has engulfed you will lead somewhere beneficial if you just relinquish control. There is great power and realizations to be obtained when confronting fear in the deep waters of the unconscious. The current of events can be overwhelming like a deluge, but there is a benevolent aspect at play which is seeking to set you free. Along with the dangerous abyss you must descend into, we see an image of a cap with wings signifying one who teaches others how to transcend difficulty because of actual experience. You might rise above the danger with the faith that all is unfolding as it should. You can also choose to allow the situation to lead you deeper into your own psyche and emotional dynamics. Using humor or escapism to mask the danger won’t work. The winged cap isn’t a toy and doesn’t magically appear so you can just rise above or hide from difficulty. It requires work to achieve enlightenment. However you decide to proceed, after a time of meeting the Abyss, you will become more sincere in your outlook. This is what is meant by ‘if you are sincere, you will meet with success.’ Kǎn is a time of testing. Clarity as the underlying cause can be a message that an old outlook can no longer serve the new person you are becoming. Nourishing Vision as the hidden influence can remind you that even when the way forward seems to threaten your idea of safety, energy is working deep within to transform your confusion into clear vision. Kǎn is the keeper of the night self and embodies that part of us that knows exactly who we are and where we need to be. Trust the process at play in your situation and pay attention to your dreams. Even nightmares are a positive sign that authentic power is being returned to the psyche. The hidden or Shadowed side of life is every bit as important as what you see by daylight. This is the ultimate hero’s journey of self discovery. If you can awaken to how you project the past upon experiences, you will discover that fear is a fertile garden, and once transformed, becomes that place where dreams are planted to become reality.
+Reading at a Glance: [[Kǎn reveals how we explore a path even when it feels dangerous]]. Whatever your question, there is an element of needing to go deep below the surface to uncover what is really happening no matter how frightening. The idea of Nourishing Vision can also lead to staying away because of fear. [[In every hero journey, just when success is on the horizon, the nemesis reappears. Will we fight or flee?]] Will we allow the challenge to teach us something? Will we continue to Nourish Vision in unhealthy ways? We are told not to Persist in an old way even when we might not understand the new way. This is similar to the dark night of the soul where life seems to engulf us in confusion and we give up hope. Can you honestly look back and not see the meaning for any challenges you faced? The situation is highly charged, but like the hero, going through the danger is necessary to discover who you are, what you really need and what you are capable of accomplishing. In hero myths one often discovers that the nemesis is actually a teacher, sometimes even a parent! In this case, the dangerous flow of water that has engulfed you will lead somewhere beneficial if you just relinquish control. There is great power and realizations to be obtained when confronting fear in the deep waters of the unconscious. The current of events can be overwhelming like a deluge, but there is a benevolent aspect at play which is seeking to set you free. Along with the dangerous abyss you must descend into, we see an image of a cap with wings signifying one who teaches others how to transcend difficulty because of actual experience. You might rise above the danger with the faith that all is unfolding as it should. You can also choose to allow the situation to lead you deeper into your own psyche and emotional dynamics. Using humor or escapism to mask the danger won’t work. The winged cap isn’t a toy and doesn’t magically appear so you can just rise above or hide from difficulty. It requires work to achieve enlightenment. However you decide to proceed, after a time of meeting the Abyss, you will become more sincere in your outlook. This is what is meant by ‘if you are sincere, you will meet with success.’ Kǎn is a time of testing. Clarity as the underlying cause can be a message that an old outlook can no longer serve the new person you are becoming. [[Nourishing Vision]] as the hidden influence can remind you that even when the way forward seems to threaten your idea of safety, energy is working deep within to transform your confusion into clear vision. [[Kǎn is the keeper of the night self and embodies that part of us that knows exactly who we are and where we need to be.]]Trust the process at play in your situation and pay attention to your dreams. Even nightmares are a positive sign that authentic power is being returned to the psyche. The hidden or Shadowed side of life is every bit as important as what you see by daylight. This is the ultimate hero’s journey of self discovery. [[If you can awaken to how you project the past upon experiences, you will discover that fear is a fertile garden]], and once transformed, becomes that place where dreams are planted to become reality.
 
 
 
